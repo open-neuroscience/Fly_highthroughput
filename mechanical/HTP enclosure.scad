@@ -16,9 +16,9 @@ module screw(l=10,w=3.3,head=true,head_h=5){
 
 module corner(){
 color("orange")difference(){
-    add_rounds(axis="z",R=3,fn=20)translate([-5,-5,-5])cube([50,50,35]);
-    translate([15,0])cube([50,20,35]);
-    translate([0,15])cube([16,50,32]);
+    add_rounds(axis="z",R=3,fn=20)translate([-5,-5,-5])cube([50,50,40]);
+    translate([15,0])cube([50,20,30]);
+    translate([0,15])cube([16,50,30]);
     translate([15,15])cube(50);
     translate([30,-1.5,7.5])rotate([90,0,0])screw();
     translate([30,-1.5,22.5])rotate([90,0,0])screw();
