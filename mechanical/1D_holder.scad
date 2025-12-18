@@ -55,11 +55,10 @@ module tubes(n=20,spacing=5,thickness=1,cw=5){
 
 
 
-module base_assembly(tube=false,spacing=3){
+module base_assembly(tube=false,spacing=3,outer_w=15){
     d=5;
     n=20;
     thickness=1;
-    outer_w=10;
     plate_len=(spacing+d)*(n-1)+d+2*thickness;
     //200x85x12
     translate([0,outer_w,0]){rotate([90,0,0])base_1d(spacing=spacing,outer_w=outer_w);
@@ -69,6 +68,8 @@ module base_assembly(tube=false,spacing=3){
 
 //base_assembly(true);
 color("green",0.5)translate([0,0,-5])cube([300,350,5]);
-cols=5;
-assembly_y=65+2*10-2*5;
-for(i=[0:cols-1])translate([0,assembly_y*i])base_assembly(true);
+cols=3;
+outer_w=15;
+assembly_y=65+2*outer_w-2*5;
+translate([cols*assembly_y,0])rotate(90)for(i=[0:cols-1])translate([0,assembly_y*i])base_assembly(true,outer_w=outer_w);
+translate([cols*assembly_y,159])rotate(90)for(i=[0:cols-1])translate([0,assembly_y*i])base_assembly(true,outer_w=outer_w);
