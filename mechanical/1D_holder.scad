@@ -2,9 +2,7 @@
 
 use <fillets_and_rounds.scad>
 
-//color("green",0.5)translate([0,0,-5])cube([300,350,5]);
-
-module base_1d(n=20,spacing=3,thickness=1,cw=5){
+module base_1d(n=20,spacing=3,thickness=1,cw=5,outer_w=15){
     d=5;
     l=65;
     $fn=30;
@@ -20,19 +18,22 @@ module base_1d(n=20,spacing=3,thickness=1,cw=5){
         }//difference
     }//for
     translate([-d/2-thickness,0])difference(){
-        cube([plate_len,5,cw*3]);
-        translate([d,-1,cw+d])rotate([-90,0,0])cylinder(d=3.3,h=10,$fn=6);
-        translate([plate_len-d,-1,cw+d])rotate([-90,0,0])cylinder(d=3.3,h=10,$fn=6);
-        translate([plate_len/3,-1,cw+d])rotate([-90,0,0])cylinder(d=3.3,h=10,$fn=6);
-        translate([plate_len*2/3,-1,cw+d])rotate([-90,0,0])cylinder(d=3.3,h=10,$fn=6);
+        cube([plate_len,5,outer_w]);
+        screw_p=cw+(outer_w-cw)/2;
+        translate([d,-1,screw_p])rotate([-90,0,0])cylinder(d=3.3,h=10,$fn=6);
+        translate([plate_len-d,-1,screw_p])rotate([-90,0,0])cylinder(d=3.3,h=10,$fn=6);
+        translate([plate_len/3,-1,screw_p])rotate([-90,0,0])cylinder(d=3.3,h=10,$fn=6);
+        translate([plate_len*2/3,-1,screw_p])rotate([-90,0,0])cylinder(d=3.3,h=10,$fn=6);
         
-        translate([d,2,cw+d])rotate([-90,0,0])cylinder(d=6.4,h=5,$fn=6);
-        translate([plate_len-d,2,cw+d])rotate([-90,0,0])cylinder(d=6.4,h=5,$fn=6);
-        translate([plate_len/3,2,cw+d])rotate([-90,0,0])cylinder(d=6.4,h=5,$fn=6);
-        translate([plate_len*2/3,2,cw+d])rotate([-90,0,0])cylinder(d=6.4,h=5,$fn=6);
+        translate([d,2,screw_p])rotate([-90,0,0])cylinder(d=6.4,h=5,$fn=6);
+        translate([plate_len-d,2,screw_p])rotate([-90,0,0])cylinder(d=6.4,h=5,$fn=6);
+        translate([plate_len/3,2,screw_p])rotate([-90,0,0])cylinder(d=6.4,h=5,$fn=6);
+        translate([plate_len*2/3,2,screw_p])rotate([-90,0,0])cylinder(d=6.4,h=5,$fn=6);
     }//difference
 }
 }//base_1d
+
+//base_1d();
 
 symmetry_test=false;
 if(symmetry_test==true){
@@ -58,14 +59,16 @@ module base_assembly(tube=false,spacing=3){
     d=5;
     n=20;
     thickness=1;
+    outer_w=10;
     plate_len=(spacing+d)*(n-1)+d+2*thickness;
     //200x85x12
-    translate([0,15,0]){rotate([90,0,0])base_1d(spacing=spacing);
-    translate([plate_len,55,0])rotate([-90,180,0])base_1d(spacing=spacing);
+    translate([0,outer_w,0]){rotate([90,0,0])base_1d(spacing=spacing,outer_w=outer_w);
+    translate([plate_len,55,0])rotate([-90,180,0])base_1d(spacing=spacing,outer_w=outer_w);
     if(tube==true)translate([3.5,-5,7.5])tubes(spacing=spacing);}
 }//base_assembly
 
-base_assembly(true);
-
+//base_assembly(true);
+color("green",0.5)translate([0,0,-5])cube([300,350,5]);
 cols=5;
-//for(i=[0:cols-1])translate([0,85*i])base_assembly(true);
+assembly_y=65+2*10-2*5;
+for(i=[0:cols-1])translate([0,assembly_y*i])base_assembly(true);
