@@ -1,6 +1,7 @@
 // High-Throuput Station
 
 use <fillets_and_rounds.scad>
+use <1D_holder.scad>
 
 module makerbeam(x=0,y=0,z=0,w=15){
     color("gray",0.7){
@@ -33,11 +34,11 @@ color("orange")difference(){
 }//difference
 }//corner
 
-module tube(od,h,fn=28,id=6.3){
+module tube(od,h,fn=28,id=6.3,v_shift=-1){
     $fn=fn;
     difference(){
         cylinder(d=od,h=h);
-        translate([0,0,-1])cylinder(d=id,h=h+2);
+        translate([0,0,v_shift])cylinder(d=id,h=h+2);
     }//difference
 }//tube
 
@@ -70,6 +71,7 @@ if(cutout==true)translate([l/2,w/2])cylinder(d=6.3,h=h+1,$fn=28);
 if(cutout==true){
     translate([l/2,w/2,cut_h-1])tube(h=2,od=10.3);
     %translate([l/2,w/2,25])screw(l=25,w=6.3,head_d=11.7,fn=20);
+    %translate([l/2,w/2])color("red")tube(h=5,od=50,id=11.7,v_shift=-3,fn=6);
     //translate([l/2,w/2,h-1])tube(h=stem_h,od=15);
 }
 }//x_brace
@@ -103,4 +105,5 @@ translate([315,15,15])makerbeam(0,350);
 }//assembly
 
 assembly();
+translate([15,15,35])dros_plate();
 

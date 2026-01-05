@@ -7,7 +7,7 @@ module base_1d(n=20,spacing=3,thickness=1,cw=5,outer_w=15){
     l=65;
     $fn=30;
     plate_len=(spacing+d)*(n-1)+d+2*thickness;
-    echo(plate_len);
+    //echo(plate_len,"=plate_len");
     translate([d/2+thickness,0]){
     translate([0,5+d/2])for(i=[0:n-1]){
         translate([i*(spacing+d),0])add_rounds(axis="z",R=0.2,fn=10)difference(){
@@ -38,7 +38,7 @@ module base_1d(n=20,spacing=3,thickness=1,cw=5,outer_w=15){
 symmetry_test=false;
 if(symmetry_test==true){
 //the below confirms the model is symmetrical
-    //enter the echoed value into the X of below translate
+    //enter the echoed plate len value (line 10) into the X of below translate
 base_1d();
 translate([159,0])color("green",0.5)mirror([1,0,0])base_1d();
 }
@@ -66,10 +66,15 @@ module base_assembly(tube=false,spacing=3,outer_w=15){
     if(tube==true)translate([3.5,-5,7.5])tubes(spacing=spacing);}
 }//base_assembly
 
-//base_assembly(true);
-color("green",0.5)translate([0,0,-5])cube([300,350,5]);
+//full plate for 1D drosophila
+module dros_plate(){
+color("green")translate([0,0,-5])cube([300,350,5]);
 cols=3;
 outer_w=15;
 assembly_y=65+2*outer_w-2*5;
+translate([22.5,15]){
 translate([cols*assembly_y,0])rotate(90)for(i=[0:cols-1])translate([0,assembly_y*i])base_assembly(true,outer_w=outer_w);
 translate([cols*assembly_y,159])rotate(90)for(i=[0:cols-1])translate([0,assembly_y*i])base_assembly(true,outer_w=outer_w);
+}
+}
+dros_plate();
