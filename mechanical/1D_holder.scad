@@ -66,12 +66,12 @@ color("green")translate([0,0,-5])cube([300,350,5]);
 cols=3;
 outer_w=15;
 assembly_y=65+2*outer_w-2*5;
-translate([22.5,15]){
+translate([(300-(65+20)*3)/2,15]){
 translate([cols*assembly_y,0])rotate(90)for(i=[0:cols-1])translate([0,assembly_y*i])base_assembly(true,outer_w=outer_w);
 translate([cols*assembly_y,159])rotate(90)for(i=[0:cols-1])translate([0,assembly_y*i])base_assembly(true,outer_w=outer_w);
 }
 }//dros_plate
-//dros_plate();
+dros_plate();
 
 module mos_plate(){
 color("green")translate([0,0,-5])cube([300,350,5]);
@@ -88,4 +88,4 @@ translate([cols*assembly_y,159])rotate(90)for(i=[0:cols-1])translate([0,assembly
 }
 }//mos_plate
 
-mos_plate();
+translate([310,0])mos_plate();
