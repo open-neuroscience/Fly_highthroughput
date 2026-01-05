@@ -2,9 +2,7 @@
 
 use <fillets_and_rounds.scad>
 
-module base_1d(n=20,spacing=3,thickness=1,cw=5,outer_w=15){
-    d=5;
-    l=65;
+module base_1d(n=20,spacing=3,thickness=1,cw=5,outer_w=15,d=5,l=65){
     $fn=30;
     plate_len=(spacing+d)*(n-1)+d+2*thickness;
     //echo(plate_len,"=plate_len");
@@ -43,9 +41,7 @@ base_1d();
 translate([159,0])color("green",0.5)mirror([1,0,0])base_1d();
 }
 
-module tubes(n=20,spacing=5,thickness=1,cw=5){
-    d=5;
-    l=65;
+module tubes(n=20,spacing=5,thickness=1,cw=5,d=5,l=65){
     $fn=30;
     color("blue",0.4)translate([0,l])rotate([90,0,0])for(i=[0:n-1]){
         translate([i*(spacing+d),0])add_rounds(axis="z",R=0.2,fn=10)difference(){
@@ -55,15 +51,13 @@ module tubes(n=20,spacing=5,thickness=1,cw=5){
 
 
 
-module base_assembly(tube=false,spacing=3,outer_w=15){
-    d=5;
-    n=20;
+module base_assembly(tube=false,spacing=3,outer_w=15,d=5,n=20,l=65){
     thickness=1;
     plate_len=(spacing+d)*(n-1)+d+2*thickness;
     //200x85x12
-    translate([0,outer_w,0]){rotate([90,0,0])base_1d(spacing=spacing,outer_w=outer_w);
-    translate([plate_len,55,0])rotate([-90,180,0])base_1d(spacing=spacing,outer_w=outer_w);
-    if(tube==true)translate([3.5,-5,7.5])tubes(spacing=spacing);}
+    translate([0,outer_w,0]){rotate([90,0,0])base_1d(spacing=spacing,outer_w=outer_w,d=d,n=n,l=l);
+    translate([plate_len,l-10,0])rotate([-90,180,0])base_1d(spacing=spacing,outer_w=outer_w,d=d,n=n,l=l);
+    if(tube==true)translate([d/2+1,-5,d/2+5])tubes(spacing=spacing,n=n,d=d,l=l);}
 }//base_assembly
 
 //full plate for 1D drosophila
@@ -76,5 +70,22 @@ translate([22.5,15]){
 translate([cols*assembly_y,0])rotate(90)for(i=[0:cols-1])translate([0,assembly_y*i])base_assembly(true,outer_w=outer_w);
 translate([cols*assembly_y,159])rotate(90)for(i=[0:cols-1])translate([0,assembly_y*i])base_assembly(true,outer_w=outer_w);
 }
+}//dros_plate
+//dros_plate();
+
+module mos_plate(){
+color("green")translate([0,0,-5])cube([300,350,5]);
+cols=2;
+d=10;
+n=11;
+l=100;
+spacing=4;
+outer_w=15;
+assembly_y=l+2*outer_w-2*5;
+translate([(300-(l+20)*2)/2,15]){
+translate([cols*assembly_y,0])rotate(90)for(i=[0:cols-1])translate([0,assembly_y*i])base_assembly(true,outer_w=outer_w,d=d,n=n,l=l,spacing=spacing);
+translate([cols*assembly_y,159])rotate(90)for(i=[0:cols-1])translate([0,assembly_y*i])base_assembly(true,outer_w=outer_w,d=d,n=n,l=l,spacing=spacing);
 }
-dros_plate();
+}//mos_plate
+
+mos_plate();
