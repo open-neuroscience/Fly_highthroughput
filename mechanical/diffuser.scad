@@ -8,10 +8,12 @@ module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=10,m=6,arch_depth
     echo(sqx,sqy);
     difference(){
         cube([x,y,z]);
-        //cutouts
+        //cutouts + board screw holes
         translate([wall_th,wall_th])for(i=[0:xn-1])for(j=[0:yn-1])
-            translate([i*(sqx+wall_th),j*(sqy+wall_th),+face_th])
+            translate([i*(sqx+wall_th),j*(sqy+wall_th),+face_th]){
                 add_rounds(axis="z",R=R,fn=30)cube([sqx,sqy,z]);
+                translate([(sqx-90)/2,(sqy-80)/2,z])led_motor_board(5);
+            }
         
         //screw_holes
         f_th = 15;
@@ -36,7 +38,7 @@ module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=10,m=6,arch_depth
             //echo(shift_x)
             translate([shift_x,shift_y,face_th])cylinder(d=m,h=z);
         }
-        
+        /*
         //grid of boards for screw holes
         bmx = 2; //board margin x
         bmy = 3; //board margin y
@@ -55,7 +57,7 @@ module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=10,m=6,arch_depth
             (j==yn-1) ? temp_y-bmy : temp_y;
             //echo(shift_x)
             translate([bshift_x,bshift_y,face_th])led_motor_board();
-        }
+        }*/
             
         //arch cuts
         outer_wall = wall_th;
@@ -72,6 +74,6 @@ module led_motor_board(border=5,x=90,y=80){
     for(dx=[border:x-2*border:x-border])for(dy=[border:y-2*border:y-border]){translate([dx,dy])cylinder(d=3.3,h=10,center=true);}
 }
 
-diffuser(wall_th=4,R=35,arch_depth=0);
+diffuser(wall_th=4,R=35,arch_depth=-1);
 //translate([7,7,20])led_motor_board();
 //translate([95+10,82.5+9,20])led_motor_board();}
