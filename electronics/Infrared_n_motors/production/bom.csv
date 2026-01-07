@@ -1,0 +1,11 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,1206,1,0.1uF,
+C2,C_Elec_4x5.4,1,1uF,
+"D1, D2, D3, D4, D5, D6",LED_PLCC_2835_Handsoldering,6,LED,C5221242
+D7,D_PowerDI-123,1,LED driver,
+J1,IDC-Header_2x04_P2.54mm_Horizontal,1,Conn_02x04_Counter_Clockwise,
+M1,Vybronics_VZ7AL2B1692612,1,Motor_DC,
+"Q1, Q2",SOT-89-3,2,ZXMN6A11Z,
+R1,2010,1,240,
+R2,2010,1,392,
+U1,SOT-223-3_TabPin2,1,LM317_SOT-223,
