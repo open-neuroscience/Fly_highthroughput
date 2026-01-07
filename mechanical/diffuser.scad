@@ -9,10 +9,13 @@ module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=10,m=6,arch_depth
     difference(){
         cube([x,y,z]);
         //cutouts + board screw holes
+        board_x = 89;
+        board_y = 79;
         translate([wall_th,wall_th])for(i=[0:xn-1])for(j=[0:yn-1])
             translate([i*(sqx+wall_th),j*(sqy+wall_th),+face_th]){
                 add_rounds(axis="z",R=R,fn=30)cube([sqx,sqy,z]);
-                translate([(sqx-90)/2,(sqy-80)/2,z-2])led_motor_board(5);
+                translate([(sqx-board_x)/2,(sqy-board_y)/2,z-2])
+                led_motor_board(5,x=board_x,y=board_y);
             }
         
         //screw_holes
