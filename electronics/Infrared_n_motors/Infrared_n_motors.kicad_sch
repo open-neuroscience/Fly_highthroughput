@@ -2828,6 +2828,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2923352"
+			(at 144.78 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "ZXMN6A11ZTA-P"
+			(at 144.78 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1848d66b-d25c-4606-a535-d693047b8746")
 		)
@@ -2909,6 +2927,15 @@
 			)
 		)
 		(property "LCSC Part #" "C5221242"
+			(at 110.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "XL-2835HIR-T202"
 			(at 110.49 50.8 0)
 			(effects
 				(font
@@ -3070,6 +3097,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFR.Part #" "XL-2835HIR-T202"
+			(at 101.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43ff9824-6a08-408a-8bf5-2e48627f66cb")
 		)
@@ -3220,6 +3256,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFR.Part #" "XL-2835HIR-T202"
+			(at 81.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e1e78f8-860a-460a-87ff-c9edb0c838b7")
 		)
@@ -3281,6 +3326,24 @@
 			)
 		)
 		(property "Description" "1.5A 35V Adjustable Linear Regulator, SOT-223"
+			(at 72.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C51466"
+			(at 72.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "LM317DCYR"
 			(at 72.39 96.52 0)
 			(effects
 				(font
@@ -3693,6 +3756,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2923352"
+			(at 146.05 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "ZXMN6A11ZTA-P"
+			(at 146.05 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82951f7a-4bc1-41a2-9783-e791465786a2")
 		)
@@ -3765,6 +3846,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C20389"
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "2010W2J0241T4S"
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "622142cb-3d06-41a3-b5e7-874efd70dda2")
 		)
@@ -3827,6 +3926,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 91.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "     C3348"
+			(at 91.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "RVT1H1R0M0405"
 			(at 91.44 100.33 0)
 			(effects
 				(font
@@ -3913,6 +4030,15 @@
 			)
 		)
 		(property "LCSC Part #" "C5221242"
+			(at 120.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "XL-2835HIR-T202"
 			(at 120.65 50.8 0)
 			(effects
 				(font
@@ -4070,6 +4196,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2678547"
+			(at 132.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "AL5809-100P1-7"
+			(at 132.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b437b02a-e6a0-4203-bdbb-bb5bccb27c9e")
 		)
@@ -4130,6 +4274,24 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 101.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C9139"
+			(at 101.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "2.54-2*4P弯简牛"
 			(at 101.6 74.93 0)
 			(effects
 				(font
@@ -4461,6 +4623,15 @@
 			)
 		)
 		(property "LCSC Part #" "C5221242"
+			(at 91.44 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "XL-2835HIR-T202"
 			(at 91.44 50.8 0)
 			(effects
 				(font
@@ -4804,6 +4975,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C230627"
+			(at 72.39 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "AC2010FK-07392RL"
+			(at 72.39 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "035fd871-43d4-4fdb-86f7-ff78c13ca957")
 		)
@@ -4866,6 +5055,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 58.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2180991"
+			(at 58.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "CC1206KRX7R7BB104"
 			(at 58.42 102.87 0)
 			(effects
 				(font
@@ -5067,6 +5274,15 @@
 			)
 		)
 		(property "Description" "DC Motor"
+			(at 148.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "VZ7AL2B1692612"
 			(at 148.59 92.71 0)
 			(effects
 				(font

@@ -1555,7 +1555,7 @@
 				)
 			)
 		)
-		(property "Value" "SFH 4253B"
+		(property "Value" "LED"
 			(at 0 2.475 0)
 			(layer "F.Fab")
 			(uuid "05ca5a21-8e30-4a7e-a8db-ceb5cd8b3c71")
@@ -1598,6 +1598,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "936f9deb-8da2-40c1-a32d-14b2cda98ff9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C5221242"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ed97a48-b1b1-4edf-b0a8-f778bd966168")
 			(effects
 				(font
 					(size 1 1)
@@ -1789,7 +1802,7 @@
 				)
 			)
 		)
-		(property "Value" "SFH 4253B"
+		(property "Value" "LED"
 			(at 0 2.475 0)
 			(layer "F.Fab")
 			(uuid "412ae3de-7627-4f6e-9d46-ca906a48d574")
@@ -1832,6 +1845,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f4759b58-7e23-4f57-8c46-02ceb77ec8cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C5221242"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f87fbdb-7a80-41d8-9031-1544fed7aad5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR.Part #" "XL-2835HIR-T202"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6303d05e-a8c8-49ae-aa29-71ebc9b8ba10")
 			(effects
 				(font
 					(size 1 1)
@@ -2023,7 +2062,7 @@
 				)
 			)
 		)
-		(property "Value" "SFH 4253B"
+		(property "Value" "LED"
 			(at 0 2.475 0)
 			(layer "F.Fab")
 			(uuid "2b153eae-b880-42e3-96fc-f095c621a5e3")
@@ -2066,6 +2105,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "98f09011-5d40-40f0-b2ee-37232ee3e2a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C5221242"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56c671ff-6873-4d5d-9e59-63bd55f16623")
 			(effects
 				(font
 					(size 1 1)
@@ -2407,6 +2459,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C5221242"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "816111d8-53f8-413f-a61b-9b524e753f15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/88365fc9-0684-46cc-810f-f88bcdffd4bb")
 		(sheetname "/")
@@ -2591,7 +2656,7 @@
 				)
 			)
 		)
-		(property "Value" "SFH 4253B"
+		(property "Value" "LED"
 			(at 0 2.475 0)
 			(layer "F.Fab")
 			(uuid "c54ac9df-c17e-4188-abc1-35639218d4fa")
@@ -2634,6 +2699,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "25f5d2bd-9fc2-40bd-b13e-6abd257e5d83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C5221242"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81ce6508-33fb-4e70-8c90-e987d2ca2bbc")
 			(effects
 				(font
 					(size 1 1)
@@ -3526,6 +3604,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "65e60ed7-8624-454a-89ad-ae3cd5439748")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C5221242"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41aca621-4a40-4583-ab21-293f262b6283")
 			(effects
 				(font
 					(size 1 1)
