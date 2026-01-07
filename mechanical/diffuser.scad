@@ -42,11 +42,10 @@ module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=10,m=6,arch_depth
             translate([shift_x,shift_y,face_th])cylinder(d=m,h=z);}//end translate
         //arch cuts
         outer_wall = wall_th;
-        for(i=[0:xn-1])translate([i*(sqx+wall_th)+wall_th,outer_wall,z-arch_depth])
-            add_rounds(axis="y",R=40,fn=30)cube([sqx,y-2*outer_wall,sqx]);
-        for(i=[0:yn-1])translate([outer_wall,i*(sqy+wall_th)+wall_th,z-arch_depth])
-        add_rounds(axis="x",R=38,fn=30)
-        cube([x-2*outer_wall,sqy,sqy]);
+        for(i=[0:xn-1])translate([i*(sqx+wall_th)+wall_th,sqy/2,z-arch_depth])
+            add_rounds(axis="y",R=40,fn=30)cube([sqx,y-sqy,sqx]);
+        for(i=[0:yn-1])translate([sqx/2,i*(sqy+wall_th)+wall_th,z-arch_depth])
+        add_rounds(axis="x",R=38,fn=30)cube([x-sqx,sqy,sqy]);
     }//difference
 }//diffuser
 
@@ -55,7 +54,7 @@ module led_motor_board(border=5,hole=10,x=90,y=80){
     for(dx=[border:x-2*border:x-border])for(dy=[border:y-2*border:y-border]){translate([dx,dy,-hole/2])cylinder(d=3.3,h=hole+2,center=true);}
 }
 
-diffuser(wall_th=4,R=35,arch_depth=5);
+diffuser(wall_th=4,R=35,arch_depth=5,z=30);
 //spacing of boards in x = wall_th + sqx -board_x = 10.6667
 //spacing in y = wall_th+sqy-board_y = 8.5
 *led_motor_board(5,x=89,y=79);
