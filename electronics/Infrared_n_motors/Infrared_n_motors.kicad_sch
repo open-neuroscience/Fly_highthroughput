@@ -790,6 +790,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -2294,6 +2444,12 @@
 		(uuid "96e434b0-9654-4008-8032-1eec22f86871")
 	)
 	(junction
+		(at 148.59 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af3d60df-a3f0-4744-8ae3-9dbd8efc9425")
+	)
+	(junction
 		(at 58.42 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2304,6 +2460,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d14e5140-ebdb-4511-9af1-86c67865b331")
+	)
+	(junction
+		(at 148.59 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d388f549-bb45-4af7-a2b1-04829e125e76")
 	)
 	(wire
 		(pts
@@ -2337,7 +2499,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 100.33) (xy 148.59 105.41)
+			(xy 148.59 100.33) (xy 148.59 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2407,6 +2569,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 102.87) (xy 148.59 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "516c0f67-8935-446b-8b11-125e182921ed")
+	)
+	(wire
+		(pts
 			(xy 149.86 50.8) (xy 152.4 50.8)
 		)
 		(stroke
@@ -2467,6 +2639,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 90.17) (xy 156.21 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6edd5d42-05d2-4a12-a614-746ab3dcb43c")
+	)
+	(wire
+		(pts
 			(xy 64.77 96.52) (xy 58.42 96.52)
 		)
 		(stroke
@@ -2504,6 +2686,16 @@
 			(type default)
 		)
 		(uuid "7d3dd004-26c0-4e1e-9240-7793415421f9")
+	)
+	(wire
+		(pts
+			(xy 156.21 85.09) (xy 148.59 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801044fb-b66a-43cd-ad9e-5e61a18938a7")
 	)
 	(wire
 		(pts
@@ -2564,6 +2756,16 @@
 			(type default)
 		)
 		(uuid "93c4f039-db48-4e11-9b45-b775d1dd7af2")
+	)
+	(wire
+		(pts
+			(xy 156.21 97.79) (xy 156.21 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98af6b48-77fc-464a-9eec-c6f49de778a5")
 	)
 	(wire
 		(pts
@@ -2657,7 +2859,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 78.74) (xy 148.59 87.63)
+			(xy 148.59 78.74) (xy 148.59 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2684,6 +2886,26 @@
 			(type default)
 		)
 		(uuid "d29520a1-57c7-4a0e-880b-57380ab45eb9")
+	)
+	(wire
+		(pts
+			(xy 148.59 85.09) (xy 148.59 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d42a5846-e4e7-46ce-a408-a99c9a5f2212")
+	)
+	(wire
+		(pts
+			(xy 148.59 102.87) (xy 148.59 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6f018c9-4296-403b-891f-fcccd24a4e7e")
 	)
 	(wire
 		(pts
@@ -3021,6 +3243,94 @@
 			(project ""
 				(path "/4e049b5c-01a9-46de-ac3b-1aba0130a787"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 156.21 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dabf8f7-2f36-4a90-9a8d-5ef3bb475bf4")
+		(property "Reference" "D8"
+			(at 158.75 92.3924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 158.75 94.9324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2481"
+			(at 156.21 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "SS16"
+			(at 156.21 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3704730e-4029-465f-aec9-4f96f899148c")
+		)
+		(pin "1"
+			(uuid "b679bd98-f210-4953-a8c3-9f09b1953da8")
+		)
+		(instances
+			(project ""
+				(path "/4e049b5c-01a9-46de-ac3b-1aba0130a787"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5230,15 +5540,15 @@
 	(symbol
 		(lib_id "Motor:Motor_DC")
 		(at 148.59 92.71 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e7442cac-4969-47c3-9860-f93a5b0be3ae")
 		(property "Reference" "M1"
-			(at 153.67 93.9799 0)
+			(at 143.51 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5247,7 +5557,7 @@
 			)
 		)
 		(property "Value" "Motor_DC"
-			(at 153.67 96.5199 0)
+			(at 143.51 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
