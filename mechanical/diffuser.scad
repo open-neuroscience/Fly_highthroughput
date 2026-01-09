@@ -6,7 +6,7 @@ module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=10,m=6,arch_depth
     sqx = (x-(xn+1)*wall_th)/xn;
     sqy = (y-(yn+1)*wall_th)/yn;
     echo(sqx,sqy);
-    difference(){
+    color("pink")difference(){
         cube([x,y,z]);
         //cutouts + board screw holes
         board_x = 88;
@@ -20,13 +20,12 @@ module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=10,m=6,arch_depth
         
         //screw_holes
         f_th = 15;
+        ffn=6;
         fx = (x-(xn+1)*f_th)/xn;
         fy = (y-(yn+1)*f_th)/yn;
-        *translate([f_th/2,f_th/2])for(i=[0:xn])for(j=[0:yn])
-            translate([i*(fx+f_th),j*(fy+f_th),face_th])cylinder(d=m,h=z);
         
-        smx = 2; //screw margin x
-        smy = 3; //screw margin y
+        smx = 5; //screw margin x
+        smy = 5; //screw margin y
         translate([wall_th/2,wall_th/2])for(i=[0:xn])for(j=[0:yn]){
             temp_x = i*(sqx+wall_th);
             temp_y = j*(sqy+wall_th);
@@ -39,7 +38,7 @@ module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=10,m=6,arch_depth
             (j==0) ? temp_y+smy : 
             (j==yn) ? temp_y-smy : temp_y;
             //echo(shift_x)
-            translate([shift_x,shift_y,face_th])cylinder(d=m,h=z);}//end translate
+            translate([shift_x,shift_y,face_th])cylinder(d=m,h=z,$fn=ffn);}//end translate
         //arch cuts
         outer_wall = wall_th;
         for(i=[0:xn-1])translate([i*(sqx+wall_th)+wall_th,sqy/2,z-arch_depth])
