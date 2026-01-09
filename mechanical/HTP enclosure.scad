@@ -2,6 +2,7 @@
 
 use <fillets_and_rounds.scad>
 use <1D_holder.scad>
+use <diffuser.scad>
 
 module makerbeam(x=0,y=0,z=0,w=15){
     color("gray",0.7){
@@ -79,12 +80,12 @@ if(cutout==true){
 //base size
 module assembly(){
     //color("green",0.1)translate([15,15])cube([300,350,30]);
-    translate([300/4+15-45,15])x_brace(cutout=true);
+    /*translate([300/4+15-45,15])x_brace(cutout=true);
     translate([300*3/4+15-45,15])x_brace(cutout=true);
     translate([300/4+15-45,350*3/4+15])x_brace(cutout=true);
     translate([300*3/4+15-45,350*3/4+15])x_brace(cutout=true);
     translate([15+75,350/4+30])x_brace(w=350*0.5-30,l=150,cutout=false,mid_w=25);
-    
+    */
     corner(slide="x");
 translate([330,0])rotate(90)corner(slide="y");
 translate([0,380])rotate(-90)corner();
@@ -96,14 +97,16 @@ translate([0,15])makerbeam(0,350);
 translate([0,15,15])makerbeam(0,350);
 translate([315,15])makerbeam(0,350);
 translate([315,15,15])makerbeam(0,350);
-    translate([15,350/4+15])makerbeam(300);
-    //translate([15,350*2/4])makerbeam(300);
-    translate([15,350*3/4])makerbeam(300);
+    /*translate([15,350/4+15])makerbeam(300);
+    /*
+    translate([15,350*3/4])makerbeam(300);*/
     translate([15,365])makerbeam(300);
     translate([15,365,15])makerbeam(300);
     
 }//assembly
 
 assembly();
-translate([15,15,35])dros_plate();
+*translate([15,15,35])dros_plate();
+translate([15,15,15])color("pink")translate([300,0,30])rotate([0,180,0])diffuser(wall_th=4,R=35,arch_depth=5,z=30);
+translate([115.7,20])rotate([180,0,0])screw(l=30,w=6.6,head_d=10.3,head_fn=30);
 
