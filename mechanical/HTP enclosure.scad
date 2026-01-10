@@ -87,26 +87,30 @@ module assembly(){
     translate([15+75,350/4+30])x_brace(w=350*0.5-30,l=150,cutout=false,mid_w=25);
     */
     corner(slide="x");
-translate([330,0])rotate(90)corner(slide="y");
-translate([0,380])rotate(-90)corner();
-translate([330,380])rotate(180)corner();
+    translate([330,0])rotate(90)corner(slide="y");
+    translate([0,380])rotate(-90)corner();
+    translate([330,380])rotate(180)corner();
 
-translate([15,0])makerbeam(300);
-translate([15,0,15])makerbeam(300);
-translate([0,15])makerbeam(0,350);
-translate([0,15,15])makerbeam(0,350);
-translate([315,15])makerbeam(0,350);
-translate([315,15,15])makerbeam(0,350);
+    translate([15,0])makerbeam(300);
+    translate([15,0,15])makerbeam(300);
+    translate([0,15])makerbeam(0,350);
+    translate([0,15,15])makerbeam(0,350);
+    translate([315,15])makerbeam(0,350);
+    translate([315,15,15])makerbeam(0,350);
     /*translate([15,350/4+15])makerbeam(300);
     /*
     translate([15,350*3/4])makerbeam(300);*/
     translate([15,365])makerbeam(300);
     translate([15,365,15])makerbeam(300);
     
+    translate([15,9.5+86.5*0.5])makerbeam(300);
+    translate([15,9.5+86.5*1.5])makerbeam(300);
+    translate([15,9.5+86.5*2.5])makerbeam(300);
+    translate([15,9.5+86.5*3.5])makerbeam(300);
 }//assembly
 
 assembly();
 *translate([15,15,35])dros_plate();
 translate([15,15,15])color("pink")translate([300,0,30])rotate([0,180,0])diffuser(wall_th=4,R=35,arch_depth=5,z=30);
-translate([115.7,20])rotate([180,0,0])screw(l=30,w=6.6,head_d=10.3,head_fn=30);
+translate([115.7,22])rotate([180,0,0])screw(l=30,w=6.6,head_d=10.3,head_fn=30);
 
