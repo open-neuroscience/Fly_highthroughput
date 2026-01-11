@@ -26,6 +26,8 @@ module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=10,m=6,arch_depth
         
         smx = 5; //screw margin x
         smy = 5; //screw margin y
+        echo("screw_x:",sqx+wall_th);
+        echo("screw_y:",sqy+wall_th);
         translate([wall_th/2,wall_th/2])for(i=[0:xn])for(j=[0:yn]){
             temp_x = i*(sqx+wall_th);
             temp_y = j*(sqy+wall_th);
@@ -39,7 +41,8 @@ module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=10,m=6,arch_depth
             (j==yn) ? temp_y-smy : temp_y;
             //echo(shift_x)
             translate([shift_x,shift_y,face_th])cylinder(d=m,h=z,$fn=ffn);}//end translate
-        //arch cuts
+        
+            //arch cuts
         outer_wall = wall_th;
         for(i=[0:xn-1])translate([i*(sqx+wall_th)+wall_th,sqy/2,z-arch_depth])
             add_rounds(axis="y",R=40,fn=30)cube([sqx,y-sqy,sqx]);
