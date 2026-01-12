@@ -7,7 +7,10 @@ module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=10,m=6,arch_depth
     sqy = (y-(yn+1)*wall_th)/yn;
     echo(sqx,sqy);
     color("pink")difference(){
-        cube([x,y,z]);
+        add_rounds(axis="x",R=5,fn=6){
+		cube([x,y,z]);
+		translate([0,0,-z/2])cube([x,y,z]);
+		}
         //cutouts + board screw holes
         board_x = 88;
         board_y = 78;
