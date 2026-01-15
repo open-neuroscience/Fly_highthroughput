@@ -107,7 +107,7 @@ module assembly(n=3){
 }//assembly
 
 module lip(l=150,w=15,lip_w=5,lip_h=5,n=3){
-	color("coral")
+	color("gold")
 	difference(){
 		union(){
 			cube([l,w,lip_h]);
@@ -126,4 +126,5 @@ translate([15,9.5+86.5*0.5+15,0])x_brace(h=15,w=86.5-15,l=90,cutout=true,d=12,cu
 
 translate([0,15+75+350/2,45])rotate(-90)lip();
 translate([330,15+350/2-75,45])rotate(90)lip();
-translate([150+150/2,380,45])rotate(180)lip();
+translate([150+150/2+15,380,45])rotate(180)lip();
+
