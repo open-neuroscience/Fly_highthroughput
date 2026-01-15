@@ -5633,6 +5633,10 @@
 		(uuid "f49de4f6-a8bd-4e6f-9681-98acc9970bc6")
 	)
 	(no_connect
+		(at 217.17 139.7)
+		(uuid "0435fa34-4e0f-4d70-bfd7-29f6cfa3f174")
+	)
+	(no_connect
 		(at 358.14 96.52)
 		(uuid "297e1f9b-5032-4784-bd70-e30e62ed0734")
 	)
@@ -5643,6 +5647,10 @@
 	(no_connect
 		(at 358.14 55.88)
 		(uuid "403af35d-b1b6-4b30-9edd-af18f8de5401")
+	)
+	(no_connect
+		(at 229.87 139.7)
+		(uuid "505d7729-5b89-47c3-93a9-03ff8f43da97")
 	)
 	(no_connect
 		(at 317.5 58.42)
@@ -15880,15 +15888,15 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x15_Odd_Even")
 		(at 430.53 74.93 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d2bf1039-a85d-4773-882f-f19248a77fb0")
 		(property "Reference" "J3"
-			(at 431.8 50.8 0)
+			(at 431.8 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15896,7 +15904,7 @@
 			)
 		)
 		(property "Value" "Conn_02x15_Odd_Even"
-			(at 431.8 53.34 0)
+			(at 431.8 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
