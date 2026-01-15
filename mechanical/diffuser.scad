@@ -2,7 +2,7 @@
 
 use <fillets_and_rounds.scad>
 
-module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=10,m=6,arch_depth=10,use_f_values=false,R=30,nut_depth=10){
+module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=10,m=6,arch_depth=10,use_f_values=false,R=30,m6_nuts=true,nut_depth=10,mount_boards=true){
     sqx = (x-(xn+1)*wall_th)/xn;
     sqy = (y-(yn+1)*wall_th)/yn;
     echo(sqx,sqy);
@@ -17,15 +17,15 @@ module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=10,m=6,arch_depth
         translate([wall_th,wall_th])for(i=[0:xn-1])for(j=[0:yn-1])
             translate([i*(sqx+wall_th),j*(sqy+wall_th),+face_th]){
                 add_rounds(axis="z",R=R,fn=30)cube([sqx,sqy,z]);
-                translate([(sqx-board_x)/2,(sqy-board_y)/2,z-2])
-                led_motor_board(5,x=board_x,y=board_y);
+                if(mount_boards==true){translate([(sqx-board_x)/2,(sqy-board_y)/2,z-2])
+                led_motor_board(5,x=board_x,y=board_y);}
             }
         
         //screw_holes
         f_th = 15;
-        ffn=6;
         fx = (x-(xn+1)*f_th)/xn;
         fy = (y-(yn+1)*f_th)/yn;
+		ffn = (m6_nuts==true) ? 30: 6;
         
         smx = 5; //screw margin x
         smy = 5; //screw margin y
@@ -44,7 +44,8 @@ module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=10,m=6,arch_depth
             (j==yn) ? temp_y-smy : temp_y;
             //echo(shift_x)
             translate([shift_x,shift_y,face_th])cylinder(d=m,h=z,$fn=ffn);
-			translate([shift_x,shift_y,z-nut_depth])rotate(45)nut_slot();
+			if(m6_nuts==true){
+			translate([shift_x,shift_y,z-nut_depth])rotate(45)nut_slot();}
 			}//end translate
         
             //arch cuts
@@ -69,7 +70,14 @@ module nut_slot(){
 		translate([-6,3,6.2])cube([12,30,5]);}//difference	
 }//nut_slot
 
-diffuser(wall_th=4,R=35,arch_depth=5,z=30);
-//spacing of boards in x = wall_th + sqx -board_x = 10.6667
-//spacing in y = wall_th+sqy-board_y = 8.5
-*led_motor_board(5,x=89,y=79);
+module opto_diffuser(){
+	color("skyblue")difference(){union(){
+		diffuser(wall_th=4,R=35,arch_depth=5,z=30,m6_nuts=false,mount_boards=false);
+		translate([150,350/2,])cylinder(d=78,h=30);
+	}
+		translate([150,350/2,-1])cylinder(d=70,h=35);
+	}//difference
+}//opto_diffuser
+!opto_diffuser();
+
+diffuser(wall_th=4,R=35,arch_depth=5,z=30,m6_nuts=false);
