@@ -2,7 +2,7 @@
 
 use <fillets_and_rounds.scad>
 
-module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=10,m=6,arch_depth=10,use_f_values=false,R=30){
+module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=10,m=6,arch_depth=10,use_f_values=false,R=30,nut_depth=10){
     sqx = (x-(xn+1)*wall_th)/xn;
     sqy = (y-(yn+1)*wall_th)/yn;
     echo(sqx,sqy);
@@ -43,7 +43,9 @@ module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=10,m=6,arch_depth
             (j==0) ? temp_y+smy : 
             (j==yn) ? temp_y-smy : temp_y;
             //echo(shift_x)
-            translate([shift_x,shift_y,face_th])cylinder(d=m,h=z,$fn=ffn);}//end translate
+            translate([shift_x,shift_y,face_th])cylinder(d=m,h=z,$fn=ffn);
+			translate([shift_x,shift_y,z-nut_depth])rotate(45)nut_slot();
+			}//end translate
         
             //arch cuts
         outer_wall = wall_th;
@@ -57,7 +59,15 @@ module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=10,m=6,arch_depth
 module led_motor_board(border=5,hole=10,x=90,y=80){
     color("green",0.8)cube([x,y,2]);
     for(dx=[border:x-2*border:x-border])for(dy=[border:y-2*border:y-border]){translate([dx,dy,-hole/2])cylinder(d=3.3,h=hole+2,center=true);}
-}
+} // led_motor_board
+
+module nut_slot(){
+	difference(){union(){
+		cylinder(d=11.8,h=6.4,$fn=6);
+		translate([0,-15,6.4/2])cube([11.8,30,6.4],center=true);}//union
+		translate([-6,-33,6.2])cube([12,30,5]);
+		translate([-6,3,6.2])cube([12,30,5]);}//difference	
+}//nut_slot
 
 diffuser(wall_th=4,R=35,arch_depth=5,z=30);
 //spacing of boards in x = wall_th + sqx -board_x = 10.6667
