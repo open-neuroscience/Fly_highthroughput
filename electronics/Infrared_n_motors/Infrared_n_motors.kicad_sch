@@ -5021,16 +5021,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 49.53) (xy 52.07 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "492c4d8a-7744-47e4-a3ca-cbb7390603d2")
-	)
-	(wire
-		(pts
 			(xy 255.27 133.35) (xy 255.27 114.3)
 		)
 		(stroke
@@ -5461,16 +5451,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 49.53) (xy 41.91 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75958035-824a-45a1-bcfe-d2dba0798312")
-	)
-	(wire
-		(pts
 			(xy 196.85 52.07) (xy 194.31 52.07)
 		)
 		(stroke
@@ -5558,6 +5538,16 @@
 			(type default)
 		)
 		(uuid "81a32686-5640-4bec-ad59-d14d52ac5e54")
+	)
+	(wire
+		(pts
+			(xy 35.56 49.53) (xy 41.91 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d5468e-c809-48ac-b48c-9c71fce47db7")
 	)
 	(wire
 		(pts
@@ -6348,6 +6338,16 @@
 			(type default)
 		)
 		(uuid "bd9a52f9-0e7d-4552-b7c7-a0647db2d862")
+	)
+	(wire
+		(pts
+			(xy 49.53 49.53) (xy 52.07 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be8ce6a3-a744-4e8d-bb44-c33e327950de")
 	)
 	(wire
 		(pts
@@ -8222,6 +8222,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 144.78 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1848d66b-d25c-4606-a535-d693047b8746")
 		)
@@ -8370,6 +8379,15 @@
 			)
 		)
 		(property "MFR.Part #" "2.54-2*15P弯简牛"
+			(at 198.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 198.12 93.98 0)
 			(effects
 				(font
@@ -8530,7 +8548,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C165403"
+		(property "LCSC Part #" "C230507"
 			(at 203.2 52.07 90)
 			(effects
 				(font
@@ -8539,7 +8557,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part #" "CR2010F10K0E04Z"
+		(property "MFR.Part #" "AC2010FK-0710KL"
+			(at 203.2 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 203.2 52.07 90)
 			(effects
 				(font
@@ -8616,7 +8643,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C165403"
+		(property "LCSC Part #" "C230507"
 			(at 82.55 153.67 90)
 			(effects
 				(font
@@ -8625,7 +8652,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part #" "CR2010F10K0E04Z"
+		(property "MFR.Part #" "AC2010FK-0710KL"
+			(at 82.55 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 82.55 153.67 90)
 			(effects
 				(font
@@ -8675,7 +8711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_PLCC_2835_Handsoldering"
+		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
 			(at 85.09 49.53 0)
 			(effects
 				(font
@@ -8721,6 +8757,15 @@
 			)
 		)
 		(property "MFR.Part #" "XL-2835HIR-T202"
+			(at 85.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 85.09 49.53 0)
 			(effects
 				(font
@@ -8838,7 +8883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx12_Slide_6.7x32.04mm_W6.73mm_P2.54mm_LowProfile_JPin"
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx12_Slide_6.7x32.04mm_W8.61mm_P2.54mm_LowProfile"
 			(at 181.61 39.37 0)
 			(effects
 				(font
@@ -8865,7 +8910,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C57456"
+		(property "LCSC Part #" "C692519"
 			(at 181.61 39.37 90)
 			(effects
 				(font
@@ -8874,7 +8919,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part #" "DSIC12LSGET"
+		(property "MFR.Part #" "DSIC12LS-P"
+			(at 181.61 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 181.61 39.37 90)
 			(effects
 				(font
@@ -9037,6 +9091,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 132.08 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3704730e-4029-465f-aec9-4f96f899148c")
 		)
@@ -9078,7 +9141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_PLCC_2835_Handsoldering"
+		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
 			(at 76.2 49.53 0)
 			(effects
 				(font
@@ -9124,6 +9187,15 @@
 			)
 		)
 		(property "MFR.Part #" "XL-2835HIR-T202"
+			(at 76.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 76.2 49.53 0)
 			(effects
 				(font
@@ -9202,6 +9274,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 36.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "optogenetics"
 				(path "/4e049b5c-01a9-46de-ac3b-1aba0130a787"
@@ -9237,7 +9318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_PLCC_2835_Handsoldering"
+		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
 			(at 55.88 49.53 0)
 			(effects
 				(font
@@ -9283,6 +9364,15 @@
 			)
 		)
 		(property "MFR.Part #" "XL-2835HIR-T202"
+			(at 55.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 55.88 49.53 0)
 			(effects
 				(font
@@ -9378,6 +9468,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 48.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "9067dabd-d2e2-42e3-8a6b-cfd3b4e75d30")
 		)
@@ -9443,6 +9542,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 36.83 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 36.83 180.34 0)
 			(effects
 				(font
@@ -9533,6 +9641,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 111.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cb71f873-6379-4e1c-9c1e-46483c820135")
 		)
@@ -9612,6 +9729,15 @@
 			)
 		)
 		(property "MFR.Part #" "2.54-2*15P弯简牛"
+			(at 231.14 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 231.14 124.46 90)
 			(effects
 				(font
@@ -9994,6 +10120,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 121.92 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82951f7a-4bc1-41a2-9783-e791465786a2")
 		)
@@ -10084,6 +10219,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 107.95 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "969778ec-3479-47d6-a977-8427f25642d5")
 		)
@@ -10153,7 +10297,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C20389"
+		(property "LCSC Part #" "C137061"
 			(at 58.42 137.16 0)
 			(effects
 				(font
@@ -10162,7 +10306,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part #" "2010W2J0241T4S"
+		(property "MFR.Part #" "RC2010FK-07240RL"
+			(at 58.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 58.42 137.16 0)
 			(effects
 				(font
@@ -10251,6 +10404,15 @@
 			)
 		)
 		(property "MFR.Part #" "RVT1H1R0M0405"
+			(at 67.31 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 67.31 135.89 0)
 			(effects
 				(font
@@ -10501,7 +10663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_PLCC_2835_Handsoldering"
+		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
 			(at 95.25 49.53 0)
 			(effects
 				(font
@@ -10547,6 +10709,15 @@
 			)
 		)
 		(property "MFR.Part #" "XL-2835HIR-T202"
+			(at 95.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 95.25 49.53 0)
 			(effects
 				(font
@@ -10617,6 +10788,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 36.83 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 36.83 185.42 0)
 			(effects
 				(font
@@ -10698,6 +10878,15 @@
 			)
 		)
 		(property "MFR.Part #" "AC2010FK-07220RL"
+			(at 154.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 154.94 62.23 0)
 			(effects
 				(font
@@ -10879,7 +11068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_PLCC_2835_Handsoldering"
+		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
 			(at 45.72 49.53 0)
 			(effects
 				(font
@@ -10925,6 +11114,15 @@
 			)
 		)
 		(property "MFR.Part #" "XL-2835HIR-T202"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 45.72 49.53 0)
 			(effects
 				(font
@@ -10974,7 +11172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_PLCC_2835_Handsoldering"
+		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
 			(at 66.04 49.53 0)
 			(effects
 				(font
@@ -11020,6 +11218,15 @@
 			)
 		)
 		(property "MFR.Part #" "XL-2835HIR-T202"
+			(at 66.04 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 66.04 49.53 0)
 			(effects
 				(font
@@ -11070,7 +11277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx12_Slide_6.7x32.04mm_W6.73mm_P2.54mm_LowProfile_JPin"
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx12_Slide_6.7x32.04mm_W8.61mm_P2.54mm_LowProfile"
 			(at 102.87 163.83 0)
 			(effects
 				(font
@@ -11097,7 +11304,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C57456"
+		(property "LCSC Part #" "C692519"
 			(at 102.87 163.83 90)
 			(effects
 				(font
@@ -11106,7 +11313,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part #" "DSIC12LSGET"
+		(property "MFR.Part #" "DSIC12LS-P"
+			(at 102.87 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 102.87 163.83 90)
 			(effects
 				(font
@@ -11401,6 +11617,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 48.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "035fd871-43d4-4fdb-86f7-ff78c13ca957")
 		)
@@ -11489,6 +11714,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 34.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5fa6fc96-204d-4f91-8485-aa5f634a7122")
 		)
@@ -11551,6 +11785,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 36.83 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 36.83 175.26 0)
 			(effects
 				(font
@@ -11641,6 +11884,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 111.76 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2b927a48-0366-43d0-a451-e6243db6b868")
 		)
@@ -11712,6 +11964,15 @@
 			)
 		)
 		(property "MFR.Part #" "VZ7AL2B1692612"
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 124.46 128.27 0)
 			(effects
 				(font
