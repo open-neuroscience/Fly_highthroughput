@@ -78,6 +78,7 @@ module opto_diffuser(){
 		translate([150,350/2,-1])cylinder(d=70,h=35);
 	}//difference
 }//opto_diffuser
-!opto_diffuser();
 
-diffuser(wall_th=4,R=35,arch_depth=5,z=30,m6_nuts=false);
+*opto_diffuser();
+
+diffuser(wall_th=4,R=35,arch_depth=5,z=30,m6_nuts=true);
