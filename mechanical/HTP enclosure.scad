@@ -96,7 +96,7 @@ module lip(l=150,w=15,lip_w=5,lip_h=5,n=3){
 }//lip
 
 //base size
-module assembly(n=3,lips=true){
+module assembly(n=3,lips=true,diff_style=""){
     //color("green",0.1)translate([15,15])cube([300,350,30]);
     /*translate([300/4+15-45,15])x_brace(cutout=true);
     translate([300*3/4+15-45,15])x_brace(cutout=true);
@@ -114,7 +114,7 @@ module assembly(n=3,lips=true){
     translate([0,15,i*15])makerbeam(0,350);
     translate([315,15,i*15])makerbeam(0,350);
     translate([15,365,i*15])makerbeam(300);
-    }
+    }//for
     translate([15,9.5+86.5*0.5])makerbeam(300);
     translate([15,9.5+86.5*1.5])makerbeam(300);
     translate([15,9.5+86.5*2.5])makerbeam(300);
@@ -133,11 +133,23 @@ translate([15+98.6*2-45,9.5+86.5*0.5+15,0])x_brace(h=15,w=86.5-15,l=90,cutout=tr
 translate([15+98.6*2-45,9.5+86.5*1.5+15,0])x_brace(h=15,w=86.5-15,l=90,cutout=true,d=12,cut_h=6,stem_h=10,mid_w=15);
 translate([15+98.6*2-45,9.5+86.5*2.5+15,0])x_brace(h=15,w=86.5-15,l=90,cutout=true,d=12,cut_h=6,stem_h=10,mid_w=15);
 	
+	if(diff_style=="diffuser")translate([15,15,15])color("pink")translate([300,0,30])rotate([0,180,0])diffuser(wall_th=4,R=35,arch_depth=5,z=20);
+	if(diff_style=="cam")translate([15,15,15])color("skyblue")translate([300,0,30])rotate([0,180,0])opto_diffuser();
+	
 }//assembly
+
+module corner_spacer(s=22.75){
+	difference(){
+		cube([s,s,15]);
+		translate([s,s/2,-0.5])cylinder(d=s,h=16);
+		translate([2,s/2,7.5])rotate([0,90,0])screw(head_h=30);
+	}//difference
+}//corner_spacer
+
+!corner_spacer();
 
 assembly(3);
 
-*translate([15,15,15])color("pink")translate([300,0,30])rotate([0,180,0])diffuser(wall_th=4,R=35,arch_depth=5,z=20);
 *translate([115.7,22])rotate([180,0,0])screw(l=30,w=6.6,head_d=10.3,head_fn=30);
 
 
@@ -153,6 +165,6 @@ translate([330,350/4+15])makerbeam(z=350);
 translate([-15,350*3/4+15])makerbeam(z=350);
 translate([330,350*3/4+15])makerbeam(z=350);
 
-translate([0,380,350])rotate([180,0,0])assembly(2,false);
+translate([0,380,350])rotate([180,0,0])assembly(2,false,"cam");
 
 *translate([15,15,35])dros_plate();
