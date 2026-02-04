@@ -29,6 +29,8 @@
 4. to test the motor, connect 7V and GND to the respective free wires, and connect the 3.3V signal to the free wire corresponding to the motor Channel you selected on step 1. This should turn on the motor, Which should begin vibrating.
 4.1 apply PWM signal to the 3.3V signal wire, with a frequency of 50Hz and a duty cycle of 50%. This should make the motor vibrate slower.
 
+## Main board:
 
+- this board contains the microcontroller, connection to a power supply and two ICs, namely 
 
 
