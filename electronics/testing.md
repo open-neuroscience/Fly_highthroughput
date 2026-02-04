@@ -24,10 +24,10 @@
 
 1. select channel 1 on both channel selectors (this will select the first motor and the first IR led channel), this selection is done by using a small screwdriver to channel 1 on each selector to the "ON" position, while turning all others to the "OFF" position.
 2. Probably the easiest way to test the board is to make an IDC cable with the required connector (30 pin) on one side, and free wires on the other side. 
-3. to test the LEDs, connect 12V and GND to the respective free wires, and connect the 3.3V signal to the free wire corresponding to the IR LED Channel you selected on step 1. This should turn on the IR LEDs, which should be visible with a phone camera. If a phone camera is not available an oscilloscope can be connected to the last LED in the chain, with ground on the side that is closer to the Mosfet, and the signal probe on the opposite side. If the LEDs are turning on, the signal on the oscilloscope should go high when the 3.3V signal is high, and low when the 3.3V signal is low.
-3.1 apply PWM signal to the 3.3V signal wire, with a frequency of 50Hz and a duty cycle of 50%. This should make the IR LEDs blink.
-4. to test the motor, connect 7V and GND to the respective free wires, and connect the 3.3V signal to the free wire corresponding to the motor Channel you selected on step 1. This should turn on the motor, Which should begin vibrating.
-4.1 apply PWM signal to the 3.3V signal wire, with a frequency of 50Hz and a duty cycle of 50%. This should make the motor vibrate slower.
+3. to test the LEDs, connect 12V and GND to the respective free wires, and connect the 3.3V signal to the free wire corresponding to the IR LED Channel you selected on step 1. This should turn on the IR LEDs, which should be visible with a phone camera. If a phone camera is not available an oscilloscope can be connected to the last LED in the chain, with ground on the side that is closer to the Mosfet, and the signal probe on the opposite side. If the LEDs are turning on, the signal on the oscilloscope should go high when the 3.3V signal is high, and low when the 3.3V signal is low.<br><br>
+3.1 apply PWM signal to the 3.3V signal wire, with a frequency of 50Hz and a duty cycle of 50%. This should make the IR LEDs blink.  <br><br>
+4. to test the motor, connect 7V and GND to the respective free wires, and connect the 3.3V signal to the free wire corresponding to the motor Channel you selected on step 1. This should turn on the motor, Which should begin vibrating.  <br><br> 
+  4.1 apply PWM signal to the 3.3V signal wire, with a frequency of 50Hz and a duty cycle of 50%. This should make the motor vibrate slower.<br><br>
 
 ## Main board:
 
