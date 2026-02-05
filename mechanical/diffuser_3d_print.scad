@@ -5,16 +5,44 @@ use <dovetail.scad>
 
 teeth =[5,2,0.3];
 
+module dove_test(){
+    rotate([0,90,0]){intersection(){
+        union(){
+    intersection(){
+        cube(20,center=true);
+        cutter(position=[0,0,0],dimension=[20,20,20],teeths=teeth,male=true);
+    }
+    intersection(){
+        cube(20,center=true);
+        cutter(position=[0,0,0],dimension=[20,20,20],teeths=teeth,male=false);
+    }}//union
+    rotate([90,0,0])cutter(position=[0,0,0],dimension=[20,20,20],teeths=teeth,male=true);
+}//intersection
+intersection(){
+        union(){
+    intersection(){
+        cube(20,center=true);
+        cutter(position=[0,0,0],dimension=[20,20,20],teeths=teeth,male=true);
+    }
+    intersection(){
+        cube(20,center=true);
+        cutter(position=[0,0,0],dimension=[20,20,20],teeths=teeth,male=false);
+    }}//union
+    rotate([90,0,0])cutter(position=[0,0,0],dimension=[20,20,20],teeths=teeth,male=false);
+}//intersection
+}}//dove_test
+!dove_test();
+
 module div1(male=true){
 	intersection(){
-		cube([30,350,300],center=true);
-		cutter(position=[0,0,0],dimension=[30,350,300],teeths=teeth,male=male);
+		cube([20,350,300],center=true);
+		cutter(position=[0,0,0],dimension=[20,350,300],teeths=teeth,male=male);
 }}
 
 module block1(male=true,filler=false){
 	intersection(){
-		translate([300/2,350/2,30/2])rotate([0,90,0])div1(male);
-		if(filler==false)diffuser(wall_th=4,R=35,arch_depth=5,z=30,m6_nuts=false);
+		translate([300/2,350/2,20/2])rotate([0,90,0])div1(male);
+		if(filler==false)diffuser(wall_th=4,R=35,arch_depth=5,z=20,m6_nuts=false);
 		if(filler==true)translate([0,350/2-5])cube([300,10,30]);
 }}
 
@@ -30,7 +58,7 @@ module side1(front=true){
 }}
 *side1(false);
 
-module div2_cutout(x1=100,x2=200,x3=300,y=185,z=30,seg=0){
+module div2_cutout(x1=100,x2=200,x3=300,y=185,z=20,seg=0){
 	if(seg==0||seg==1){
 	intersection(){
 		cube([x2,y,z]);
