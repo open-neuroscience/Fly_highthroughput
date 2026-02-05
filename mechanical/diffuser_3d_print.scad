@@ -3,7 +3,7 @@
 use <diffuser.scad>
 use <dovetail.scad>
 
-teeth =[5,2,0.3];
+teeth =[5,2,0.4];
 
 module dove_test(){
     rotate([0,90,0]){intersection(){
