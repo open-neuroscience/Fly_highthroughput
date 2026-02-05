@@ -14,7 +14,7 @@ module div1(male=true){
 module block1(male=true,filler=false){
 	intersection(){
 		translate([300/2,350/2,30/2])rotate([0,90,0])div1(male);
-		if(filler==false)diffuser(wall_th=4,R=35,arch_depth=-1,z=30,m6_nuts=false);
+		if(filler==false)diffuser(wall_th=4,R=35,arch_depth=5,z=30,m6_nuts=false);
 		if(filler==true)translate([0,350/2-5])cube([300,10,30]);
 }}
 
