@@ -3981,6 +3981,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "VPP is +7V\n"
+		(exclude_from_sim no)
+		(at 175.514 78.994 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "319239c3-d4b4-4039-80cc-e6d2cedaec68")
+	)
 	(junction
 		(at 90.17 153.67)
 		(diameter 0)
