@@ -2,7 +2,7 @@
 
 use <fillets_and_rounds.scad>
 
-module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=4,m=6,arch_depth=5,use_f_values=false,R=30,m6_nuts=true,nut_depth=10,mount_boards=true){
+module diffuser(x=300,y=350,z=20,xn=3,yn=4,face_th=0.4,wall_th=4,m=6,arch_depth=5,use_f_values=false,R=35,m6_nuts=true,nut_depth=10,mount_boards=true){
     sqx = (x-(xn+1)*wall_th)/xn;
     sqy = (y-(yn+1)*wall_th)/yn;
     echo(sqx,sqy);
