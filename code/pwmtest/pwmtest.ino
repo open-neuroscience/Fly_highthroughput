@@ -10,7 +10,7 @@ Adafruit_PWMServoDriver pwm2 = Adafruit_PWMServoDriver(0x41);
 // you can also call it with a different address and I2C interface
 //Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver(0x40, Wire);
 
-SerialCommand sCmd;     // The demo SerialCommand object
+//SerialCommand sCmd;     // The demo SerialCommand object
 
 void setup() {
   Serial.begin(9600);
