@@ -32,10 +32,10 @@ translate([300,350*3/4,h])rotate(180)lshape();}
 translate([dist,dist*3,dist])intersection(){dif();
 translate([100,350*3/4,h])domino();}
 
-translate([dist,0,dist])intersection(){dif();
+translate([dist,0])intersection(){dif();
 translate([200,0,h])cube([100,350/4,h]);}
 
-translate([0,dist*2,dist])intersection(){dif();
+translate([0,dist])intersection(){dif();
 translate([0,350*3/4,h])cube([100,350/4,h]);}
 
 
