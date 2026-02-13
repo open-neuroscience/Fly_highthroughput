@@ -3342,7 +3342,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_NMOS_DGS"
+		(symbol "Transistor_FET:Q_NMOS_GDS"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -3359,7 +3359,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_NMOS_DGS"
+			(property "Value" "Q_NMOS_GDS"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -3386,7 +3386,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(property "Description" "N-MOSFET transistor, gate/drain/source"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3404,7 +3404,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_NMOS_DGS_0_1"
+			(symbol "Q_NMOS_GDS_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -3571,7 +3571,7 @@
 					)
 				)
 			)
-			(symbol "Q_NMOS_DGS_1_1"
+			(symbol "Q_NMOS_GDS_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -3582,7 +3582,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3600,7 +3600,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8162,104 +8162,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_DGS")
-		(at 144.78 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "040bd081-11ff-4829-bab8-877a97b39c6d")
-		(property "Reference" "Q1"
-			(at 144.78 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ZXMN6A11Z"
-			(at 144.78 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 142.24 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/gate/source"
-			(at 144.78 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2923352"
-			(at 144.78 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR.Part #" "ZXMN6A11ZTA-P"
-			(at 144.78 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 144.78 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1848d66b-d25c-4606-a535-d693047b8746")
-		)
-		(pin "2"
-			(uuid "77eccced-e61d-40ff-8e9f-b6e36160dc7d")
-		)
-		(pin "3"
-			(uuid "7a4f73cc-68eb-4882-a672-7734c601de23")
-		)
-		(instances
-			(project ""
-				(path "/4e049b5c-01a9-46de-ac3b-1aba0130a787"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 210.82 52.07 90)
 		(unit 1)
@@ -10058,106 +9960,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_DGS")
-		(at 121.92 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71e4c635-d4c3-4630-863b-5800bfec3677")
-		(property "Reference" "Q2"
-			(at 128.27 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ZXMN6A11Z"
-			(at 128.27 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 127 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/gate/source"
-			(at 121.92 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2923352"
-			(at 121.92 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR.Part #" "ZXMN6A11ZTA-P"
-			(at 121.92 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 121.92 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82951f7a-4bc1-41a2-9783-e791465786a2")
-		)
-		(pin "2"
-			(uuid "ee512f44-d037-4b9e-a166-6a14828222f9")
-		)
-		(pin "3"
-			(uuid "fe3ab01e-7bce-4778-9e80-b6d197ffa37f")
-		)
-		(instances
-			(project "Infrared_n_motors"
-				(path "/4e049b5c-01a9-46de-ac3b-1aba0130a787"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 107.95 146.05 270)
 		(unit 1)
@@ -10441,6 +10243,95 @@
 			(project "Infrared_n_motors"
 				(path "/4e049b5c-01a9-46de-ac3b-1aba0130a787"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(at 144.78 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c801d51-9b12-4f62-aa6f-482f451cf0a1")
+		(property "Reference" "Q1"
+			(at 144.78 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Q_NMOS_GDS"
+			(at 144.78 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 144.78 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2923352"
+			(at 144.78 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "ZXMN6A11ZTA-P"
+			(at 144.78 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f949b3a-60cf-4e4b-8169-7226d1e7a3d0")
+		)
+		(pin "1"
+			(uuid "6e3fc2e8-595e-4cf0-ab7a-e2755a4febd0")
+		)
+		(pin "3"
+			(uuid "f6d56bc9-22c7-4d60-824b-e73f50f4aa99")
+		)
+		(instances
+			(project ""
+				(path "/4e049b5c-01a9-46de-ac3b-1aba0130a787"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -11549,6 +11440,96 @@
 			(project "Infrared_n_motors"
 				(path "/4e049b5c-01a9-46de-ac3b-1aba0130a787"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(at 121.92 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4d39497-fa39-4f6a-9b8e-9f9d8201fab2")
+		(property "Reference" "Q2"
+			(at 128.27 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_GDS"
+			(at 128.27 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 127 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 121.92 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2923352"
+			(at 121.92 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "ZXMN6A11ZTA-P"
+			(at 121.92 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87456728-22ca-41cd-809e-c308d4ddedad")
+		)
+		(pin "1"
+			(uuid "66eef6c9-5bd8-4498-861d-41f54c7f8a33")
+		)
+		(pin "3"
+			(uuid "1d1269d1-5dba-4c87-8159-3bd8a3c2d20d")
+		)
+		(instances
+			(project "Infrared_n_motors"
+				(path "/4e049b5c-01a9-46de-ac3b-1aba0130a787"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
