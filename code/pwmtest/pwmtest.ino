@@ -14,6 +14,7 @@ Adafruit_PWMServoDriver pwm2 = Adafruit_PWMServoDriver(0x41);
 
 void setup() {
   Serial.begin(9600);
+  delay(100);
   Serial.println("32 channel PWM test!");
 
   pwm1.begin();
@@ -35,9 +36,9 @@ void setup() {
    * affects the calculations for the PWM update frequency. 
    * Failure to correctly set the int.osc value will cause unexpected PWM results
    */
-  pwm1.setOscillatorFrequency(27000000);
+  //pwm1.setOscillatorFrequency(27000000);
   pwm1.setPWMFreq(1000);  // This is the maximum PWM frequency
-  pwm2.setOscillatorFrequency(27000000);
+  //pwm2.setOscillatorFrequency(27000000);
   pwm2.setPWMFreq(1000);  // This is the maximum PWM frequency
 
   // if you want to really speed stuff up, you can go into 'fast 400khz I2C' mode
@@ -70,3 +71,4 @@ void loop() {
 #endif
   }
 }//end loop
+
