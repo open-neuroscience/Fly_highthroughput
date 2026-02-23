@@ -42,6 +42,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
+		(grid_origin 190 265)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -484,7 +485,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-50P1-7"
+		(property "Value" "AL5809-20P1-7"
 			(at 3.7482 -1.6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -520,7 +521,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531166"
+		(property "LCSC Part #" "C531144"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -533,7 +534,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-50P1-7"
+		(property "MFR.Part #" "AL5809-20P1-7"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1291,7 +1292,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-50P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1327,7 +1328,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531166"
+		(property "LCSC Part #" "C156311"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1340,7 +1341,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-50P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3184,7 +3185,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-50P1-7"
+		(property "Value" "AL5809-20P1-7"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3220,7 +3221,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531166"
+		(property "LCSC Part #" "C531144"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3233,7 +3234,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-50P1-7"
+		(property "MFR.Part #" "AL5809-20P1-7"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4420,7 +4421,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-50P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4456,7 +4457,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531166"
+		(property "LCSC Part #" "C156311"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4469,7 +4470,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-50P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6653,7 +6654,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-50P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6689,7 +6690,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531166"
+		(property "LCSC Part #" "C156311"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6702,7 +6703,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-50P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7434,7 +7435,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-50P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7470,7 +7471,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531166"
+		(property "LCSC Part #" "C156311"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7483,7 +7484,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-50P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7921,7 +7922,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-50P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7957,7 +7958,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531166"
+		(property "LCSC Part #" "C156311"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7970,7 +7971,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-50P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11247,7 +11248,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-50P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11283,7 +11284,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531166"
+		(property "LCSC Part #" "C156311"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11296,7 +11297,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-50P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12348,7 +12349,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-50P1-7"
+		(property "Value" "AL5809-20P1-7"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12384,7 +12385,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531166"
+		(property "LCSC Part #" "C531144"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12397,7 +12398,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-50P1-7"
+		(property "MFR.Part #" "AL5809-20P1-7"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15116,7 +15117,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-50P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15152,7 +15153,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531166"
+		(property "LCSC Part #" "C156311"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15165,7 +15166,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-50P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15897,7 +15898,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-50P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15933,7 +15934,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531166"
+		(property "LCSC Part #" "C156311"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15946,7 +15947,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-50P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18561,7 +18562,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-50P1-7"
+		(property "Value" "AL5809-20P1-7"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18597,7 +18598,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531166"
+		(property "LCSC Part #" "C531144"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18610,7 +18611,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-50P1-7"
+		(property "MFR.Part #" "AL5809-20P1-7"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19666,7 +19667,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-50P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19702,7 +19703,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531166"
+		(property "LCSC Part #" "C156311"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19715,7 +19716,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-50P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20153,7 +20154,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-50P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20189,7 +20190,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531166"
+		(property "LCSC Part #" "C156311"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20202,7 +20203,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-50P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21839,7 +21840,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-50P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21875,7 +21876,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531166"
+		(property "LCSC Part #" "C156311"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21888,7 +21889,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-50P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22646,7 +22647,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-50P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22682,7 +22683,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531166"
+		(property "LCSC Part #" "C156311"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22695,7 +22696,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-50P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

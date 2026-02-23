@@ -8822,7 +8822,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C692519 "
+		(property "LCSC Part #" "C692519"
 			(at 181.61 39.37 90)
 			(effects
 				(font
@@ -11554,7 +11554,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "392"
+		(property "Value" "330"
 			(at 50.8 146.0499 0)
 			(effects
 				(font
