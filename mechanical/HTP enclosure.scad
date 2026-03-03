@@ -146,25 +146,30 @@ module corner_spacer(s=22.75){
 	}//difference
 }//corner_spacer
 
-!corner_spacer();
+
 
 assembly(3);
 
 *translate([115.7,22])rotate([180,0,0])screw(l=30,w=6.6,head_d=10.3,head_fn=30);
 
+*translate([15,15,35])dros_plate();
+
 
 //"screw_x:", 98.6667
 //"screw_y:", 86.5
-
+opto=false;
 translate([-15,350/2+15])makerbeam(z=350);
 translate([330,350/2+15])makerbeam(z=350);
-
+if(opto==true){
 translate([-15,350/4+15])makerbeam(z=350);
 translate([330,350/4+15])makerbeam(z=350);
 
 translate([-15,350*3/4+15])makerbeam(z=350);
 translate([330,350*3/4+15])makerbeam(z=350);
 
-translate([0,380,350])rotate([180,0,0])assembly(2,false,"cam");
+translate([0,380,350])rotate([180,0,0])assembly(2,false,"cam");}
 
-*translate([15,15,35])dros_plate();
+
+if(opto==false){
+	translate([15,350/2+15,400])makerbeam(x=300);
+}//if
