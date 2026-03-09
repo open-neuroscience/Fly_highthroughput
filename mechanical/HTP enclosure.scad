@@ -95,6 +95,22 @@ module lip(l=150,w=15,lip_w=5,lip_h=5,n=3){
 }//difference
 }//lip
 
+module camera_corner(){
+translate([-5,0,-50])color("lime")difference(){
+intersection(){
+	translate([0,-5])cube([300,25,120]);
+	translate([-25,-5,10])rotate([0,45,0])makerbeam(w=25,z=200);
+}
+drop=300;
+translate([5,0,-drop])makerbeam(z=350);
+translate([35,0,400-drop])makerbeam(x=300);
+
+translate([25/2,-2,30])rotate([90,0,0])screw();
+translate([25/2,17,30])rotate([-90,0,0])screw();
+
+translate([90,-2,107.5])rotate([90,0,0])screw();
+translate([90,17,107.5])rotate([-90,0,0])screw();}}//camera corner
+
 //base size
 module assembly(n=3,lips=true,diff_style=""){
     //color("green",0.1)translate([15,15])cube([300,350,30]);
@@ -172,4 +188,5 @@ translate([0,380,350])rotate([180,0,0])assembly(2,false,"cam");}
 
 if(opto==false){
 	translate([15,350/2+15,400])makerbeam(x=300);
+	translate([-15,350/2+15,350])camera_corner();
 }//if
