@@ -1,4 +1,4 @@
-# Fly_highthroughput
+# Fly highthroughput
 
 
 In collaboration with [BFKLAB](https://www.bfklab.com/), we are developing a system to measure behaviour of fruit flies. The system is high-throughput, that is, we can measure several animals at a time.
