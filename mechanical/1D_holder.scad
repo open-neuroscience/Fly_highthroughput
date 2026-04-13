@@ -67,8 +67,8 @@ cols=3;
 outer_w=15;
 assembly_y=65+2*outer_w-2*5;
 translate([(300-(65+20)*3)/2,15]){
-translate([cols*assembly_y,0])rotate(90)for(i=[0:cols-1])translate([0,assembly_y*i])base_assembly(true,outer_w=outer_w);
-translate([cols*assembly_y,159])rotate(90)for(i=[0:cols-1])translate([0,assembly_y*i])base_assembly(true,outer_w=outer_w);
+translate([cols*assembly_y,0])rotate(90)for(i=[0:cols-1])translate([0,assembly_y*i])base_assembly(tube=false,outer_w=outer_w);
+translate([cols*assembly_y,159])rotate(90)for(i=[0:cols-1])translate([0,assembly_y*i])base_assembly(tube=false,outer_w=outer_w);
 }
 }//dros_plate
 dros_plate();
@@ -88,4 +88,4 @@ translate([cols*assembly_y,159])rotate(90)for(i=[0:cols-1])translate([0,assembly
 }
 }//mos_plate
 
-translate([310,0])mos_plate();
+//translate([310,0])mos_plate();
