@@ -14,7 +14,7 @@ Adafruit_PWMServoDriver pwm2 = Adafruit_PWMServoDriver(0x41);
 
 void setup() {
   Serial.begin(9600);
-  delay(100);
+  delay(200);
   Serial.println("32 channel PWM test!");
 
   pwm1.begin();
@@ -44,7 +44,7 @@ void setup() {
   // if you want to really speed stuff up, you can go into 'fast 400khz I2C' mode
   // some i2c devices dont like this so much so if you're sharing the bus, watch
   // out for this!
-  Wire.setClock(400000);
+  Wire.setClock(200000);
 
   Serial.println("Ready");
 
@@ -52,7 +52,7 @@ void setup() {
 
 void loop() {
   // Drive each PWM in a 'wave'
-  for (uint16_t i=0; i<4096; i += 8) {
+  for (uint16_t i=0; i<4096; i += 100) {
     for (uint8_t pwmnum=0; pwmnum < 16; pwmnum++) {
       
       Serial.print("channel: ");
