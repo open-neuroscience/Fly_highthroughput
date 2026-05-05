@@ -15,7 +15,7 @@ Adafruit_PWMServoDriver pwm2 = Adafruit_PWMServoDriver(0x41);
 // you can also call it with a different address and I2C interface
 //Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver(0x40, Wire);
 
-
+int intensity;
 
 
 SerialCommand sCmd;     // The demo SerialCommand object
@@ -48,9 +48,16 @@ void setup() {
    * Failure to correctly set the int.osc value will cause unexpected PWM results
    */
   //pwm1.setOscillatorFrequency(27000000);
-  pwm1.setPWMFreq(1000);  // This is the maximum PWM frequency
+  pwm1.setPWMFreq(2000);  // This is the maximum PWM frequency
   //pwm2.setOscillatorFrequency(27000000);
-  pwm2.setPWMFreq(1000);  // This is the maximum PWM frequency
+  pwm2.setPWMFreq(2000);  // This is the maximum PWM frequency
+
+  // turn everything off
+  for (uint8_t pwmnum=0; pwmnum < 16; pwmnum++) {
+      pwm1.setPWM(pwmnum, 0, 4096 );
+      pwm2.setPWM(pwmnum, 0, 4096 );
+    }
+  
 
   // if you want to really speed stuff up, you can go into 'fast 400khz I2C' mode
   // some i2c devices dont like this so much so if you're sharing the bus, watch
@@ -73,7 +80,7 @@ void setup() {
   */
   
   // one function will control all systems:
-  sCmd.addCommand("set_system",set_system);
+  sCmd.addCommand("set",set_system);
   // the function call follows this logic:
   //   channel, intensity and subsystem
   //   subsystem: ir: control infrared leds
@@ -118,24 +125,14 @@ void setup() {
 void loop() {
 
   sCmd.readSerial();     // We don't do much, just process serial commands
-  /*
-  // Drive each PWM in a 'wave'
-  for (uint16_t i=0; i<4096; i += 8) {
-    for (uint8_t pwmnum=0; pwmnum < 16; pwmnum++) {
-      pwm.setPWM(pwmnum, 0, (i + (4096/16)*pwmnum) % 4096 );
-    }
-#ifdef ESP8266
-    yield();  // take a breather, required for ESP8266
-#endif
-  }
-  */
+
 }// end void loop
 
 
 void set_system() {
   int subsystem;
   int channel;
-  int intensity;
+
 
   char *arg;
 
@@ -148,6 +145,7 @@ void set_system() {
     if (strcmp(arg,"ir")==0) {
         subsystem=0;
     }
+    
     if (strcmp(arg,"motor")==0) {
         subsystem=1;
     }
@@ -158,24 +156,33 @@ void set_system() {
         subsystem=3;
     }
 
-  }
+  }// end if
+
+  
+  
+
     arg = sCmd.next();
-       if (arg != NULL) {
+    if (arg != NULL) {
     /////////////////////////////////////////////////////////
     channel = atoi(arg);    // Converts a char string to an integer
        }//end if
-    if (channel<1){
-      Serial.print("no channel should be below 1... ");
-      Serial.println("defaulting channel to 1");
-      channel = 1;
+    if (channel<0){
+      Serial.print("no channel should be below 0... ");
+      Serial.println("defaulting channel to 0");
+      channel = 0;
       }//end if channel
-
+    
+    //char *arg;
+    arg = sCmd.next();
     if (arg != NULL) {
-    intensity = atol(arg);
+    
+    intensity = atoi(arg);
+    //Serial.print("raw intensity: ");
+    //Serial.println(intensity);
     }//end if
   else {
     Serial.println("No arguments");
-    channel = 1;   
+    channel = 0;   
     intensity = 0;
   
   }
@@ -199,52 +206,59 @@ void set_system() {
 
     }//end if intensity
     
-    // now map intensity to the range o to 4096 (12 bit resolution of the PCA9685 chips)
-    intensity = map(intensity, 0,100,0,4095);
-  
+    // now map intensity to the range o to 4096 (12 bit resolution of the PCA9685 chips) -  right now capped at 3000 `cause LED's were burning at 4096 - need to check electronics
+    intensity = map(intensity, 0,100,0,3000);
+    
+    if (intensity == 0){
+    // this is done to fully turn off the system
+      intensity=4096;
+    }//end if intensity == 0
+    
+  Serial.println(intensity);
 
 
   if (subsystem==0){    
-    if (channel>12){
-      Serial.print("no IR channel should be above 12 ");
+    if (channel>7){
+      Serial.print("no IR channel should be above 7 ");
       Serial.println("defaulting channel to 0");
       channel = 0;
     }//end if channel
 
   
-    pwm1.setPWM(channel, 0, intensity);
+    pwm2.setPWM(channel, 0, intensity);
     Serial.println("infrared leds set");
   }//end subsystem 0
   
   if (subsystem==1){
   
-    pwm2.setPWM(channel, 0, intensity);
-        if (channel>12){
-      Serial.print("no motor channel should be above 12 ");
+
+        if (channel>7){
+      Serial.print("no motor channel should be above 7 ");
       Serial.println("defaulting channel to 0");
       channel = 0;
     }//end if channel
-
+    pwm1.setPWM(channel, 0, intensity);
     Serial.println("motors set");
   }//end subsystem 1
   
   
   if (subsystem==2){
-      if (channel>2){
-      Serial.print("no houselight channel should be above 2 ");
+      if (channel>1){
+      Serial.print("no houselight channel should be above 1 ");
       Serial.println("defaulting channel to 0");
       channel = 0;
     }//end if channel
 
-    if (channel == 1){
+    if (channel == 0){
   
     /* since we are dividing the 16 channels on the PCA chips for houselight, opto, IR and motors, 
        in this bit of code we adjust it so that it goes to the correct channel and chip */
     channel = 15;
     pwm1.setPWM(channel, 0, intensity);
+    
   }// end if channel==0
   
-  if (channel == 2){
+  if (channel == 1){
     /* since we are dividing the 16 channels on the PCA chips for houselight, opto, IR and motors, 
        in this bit of code we adjust it so that it goes to the correct channel and chip*/
     channel = 15;
@@ -257,14 +271,14 @@ void set_system() {
   }//end houselight configuration
 
 if (subsystem==3){
-  if (channel == 1){
+  if (channel == 0){
     /* since we are dividing the 16 channels on the PCA chips for houselight, opto, IR and motors, 
        in this bit of code we adjust it so that it goes to the correct channel and chip*/
     channel = 13;
     pwm1.setPWM(channel, 0, intensity);
     Serial.println("optoRED set");
   }// end if channel==0
-  if (channel == 2){
+  if (channel == 1){
     /* since we are dividing the 16 channels on the PCA chips for houselight, opto, IR and motors, 
        in this bit of code we adjust it so that it goes to the correct channel and chip*/
     channel = 13;
@@ -275,14 +289,14 @@ if (subsystem==3){
 
 //end optoRED configuration
 
-  if (channel == 3){
+  if (channel == 2){
     /* since we are dividing the 16 channels on the PCA chips for houselight, opto, IR and motors, 
        in this bit of code we adjust it so that it goes to the correct channel and chip*/
     channel = 12;
     pwm1.setPWM(channel, 0, intensity);
     Serial.println("optoGREEN set");
   }// end if channel==0
-  if (channel == 4){
+  if (channel == 3){
     /* since we are dividing the 16 channels on the PCA chips for houselight, opto, IR and motors, 
        in this bit of code we adjust it so that it goes to the correct channel and chip*/
     channel = 12;
@@ -294,14 +308,14 @@ if (subsystem==3){
 //end optoGREEN configuration
 
 
-  if (channel == 5){
+  if (channel == 4){
     /* since we are dividing the 16 channels on the PCA chips for houselight, opto, IR and motors, 
        in this bit of code we adjust it so that it goes to the correct channel and chip*/
     channel = 14;
     pwm1.setPWM(channel, 0, intensity);
     Serial.println("optoBLUE set");
   }// end if channel==0
-  if (channel == 6){
+  if (channel == 5){
     /* since we are dividing the 16 channels on the PCA chips for houselight, opto, IR and motors, 
        in this bit of code we adjust it so that it goes to the correct channel and chip*/
     channel = 14;
