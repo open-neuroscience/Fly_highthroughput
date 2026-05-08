@@ -1,0 +1,12 @@
+s.writeline('set opto 3 10')
+
+sStr = 1, 1, 10
+
+sprintf('set %s %i %i', component, i_ch, p_val)
+
+Opto:
+  - Red = 
+  - Green = 3,4
+Motors
+House Lights
+IR 
