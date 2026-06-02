@@ -655,6 +655,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Поле4",
+          "name": "Поле4",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -713,7 +719,7 @@
         "uuid": "4e049b5c-01a9-46de-ac3b-1aba0130a787"
       }
     ],
-    "used_designators": "U17-19,R17-22,C1-6,#PWR27-36",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
