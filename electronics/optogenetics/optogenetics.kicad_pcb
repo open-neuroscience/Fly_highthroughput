@@ -4938,7 +4938,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C175071"
+		(property "LCSC Part #" "C2999597"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4951,7 +4951,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "CR2010F4K70E04Z"
+		(property "MFR.Part #" "FRC2010F6800TS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15738,7 +15738,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C230627"
+		(property "LCSC Part #" "C2907563"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15751,7 +15751,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AC2010FK-07392RL"
+		(property "MFR.Part #" "FRC2010J202 TS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19207,7 +19207,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C137061"
+		(property "LCSC Part #" "C229127"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19220,7 +19220,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "RC2010FK-07240RL"
+		(property "MFR.Part #" "AC2010FK-07536RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28286,7 +28286,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C175071"
+		(property "LCSC Part #" "C2960919"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28299,7 +28299,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "CR2010F4K70E04Z"
+		(property "MFR.Part #" "FRC2010J152 TS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
