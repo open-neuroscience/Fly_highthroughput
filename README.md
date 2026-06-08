@@ -11,3 +11,7 @@ Other characteristics:
 - RGB LEDs for Optogenetics
 - White LEDs for simulating day/night cycles
 
+Initial version:
+
+![](./media/base_no_camera.jpeg)
+
