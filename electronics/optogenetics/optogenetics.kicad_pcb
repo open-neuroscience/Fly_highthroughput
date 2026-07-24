@@ -802,7 +802,7 @@
 			(size 3.325 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
-			(net "vin_red_led")
+			(net "vin_red_led_7.5v")
 			(pintype "passive")
 			(uuid "aaa23052-8fe0-4d35-af43-7b63bd8a1b7a")
 		)
@@ -1681,7 +1681,7 @@
 			(at 4.95 0 90)
 			(size 2.9 5.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "vin_GB_led")
+			(net "vin_GB_led_10.5V")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "a246d832-11b4-43fe-8e50-7e4b51b744d8")
@@ -2480,7 +2480,7 @@
 			(size 2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "vin_GB_led")
+			(net "vin_GB_led_10.5V")
 			(pinfunction "AG_4")
 			(pintype "passive")
 			(uuid "e58c6282-3878-4f9e-998f-55a4eeab19a6")
@@ -2490,7 +2490,7 @@
 			(size 2 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "vin_red_led")
+			(net "vin_red_led_7.5v")
 			(pinfunction "AR_5")
 			(pintype "passive")
 			(uuid "b5ed400d-1b89-44f8-b3f2-d1ed0375b75e")
@@ -2500,7 +2500,7 @@
 			(size 2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "vin_GB_led")
+			(net "vin_GB_led_10.5V")
 			(pinfunction "AB_6")
 			(pintype "passive")
 			(uuid "d73d60cc-fe9a-4188-8da3-f5d2e082fefd")
@@ -2528,7 +2528,7 @@
 			(at 0 -6.65 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6cea24fd-b1a6-4cbd-900a-1f72e0d6e854")
+			(uuid "b9db9d7d-77d7-4145-b3a1-bce927500cc6")
 			(effects
 				(font
 					(size 1 1)
@@ -2539,7 +2539,7 @@
 		(property "Value" "LM2596S-ADJ"
 			(at 0 6.65 90)
 			(layer "F.Fab")
-			(uuid "7cc5d8f7-653e-4849-b37a-f42d2410cd24")
+			(uuid "57e9d3fa-86f8-4fc3-af5e-033541916cfa")
 			(effects
 				(font
 					(size 1 1)
@@ -2551,7 +2551,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f2e54f12-da5b-4042-8f9e-553894019657")
+			(uuid "8a3da125-e556-408f-b411-fa4162715126")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,7 +2562,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a06e6202-1317-461a-b68e-6d2356e7d478")
+			(uuid "381240d0-465a-422d-8051-3d6531214ed3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3305,7 +3305,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3339,7 +3339,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3352,7 +3352,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4415,7 +4415,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4449,7 +4449,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4462,7 +4462,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4905,7 +4905,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "2.7k"
 			(at 0 2.28 90)
 			(layer "F.Fab")
 			(uuid "3d35b80c-e61b-4638-979a-9b8b43e3eb70")
@@ -4938,7 +4938,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2999597"
+		(property "LCSC Part #" "C2934018"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4951,7 +4951,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "FRC2010F6800TS"
+		(property "MFR.Part #" "FRC2010J272 TS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5056,7 +5056,7 @@
 			(size 1.4 2.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.178571)
-			(net "vin_red_led")
+			(net "vin_red_led_7.5v")
 			(pintype "passive")
 			(uuid "04763cf0-10ae-4808-8aa9-fc5235c4fd5d")
 		)
@@ -5082,7 +5082,7 @@
 		(property "Reference" "C13"
 			(at 0 -1.85 90)
 			(layer "F.SilkS")
-			(uuid "4f5aa931-cbac-4caf-948b-c2b4c8df0385")
+			(uuid "62e0435a-4dcb-4b2d-a8c5-fbee3d78d0cb")
 			(effects
 				(font
 					(size 1 1)
@@ -5093,7 +5093,7 @@
 		(property "Value" "1.5nF"
 			(at 0 1.85 90)
 			(layer "F.Fab")
-			(uuid "ed36ac9c-d9e2-48f3-b1d5-3614f6d599ad")
+			(uuid "62008da3-2004-4a2d-aa0e-ab99addc9c08")
 			(effects
 				(font
 					(size 1 1)
@@ -5105,7 +5105,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e58a959d-9e57-4262-8d55-0849ec6a8a00")
+			(uuid "dc3c2043-68c4-4903-836d-9f0efe2d7307")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5116,19 +5116,19 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "567c3ffb-54f1-4b89-bbf2-7e1118eae615")
+			(uuid "b1d776f0-3a39-48ae-8f24-eb44ab6100ae")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "LCSC Part #" "C161482"
+		(property "LCSC Part #" "C1851"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7f7674ea-32a3-4c30-8c76-fd0a03bcc8ca")
+			(uuid "a9589096-975b-4593-bc53-6e73753aade1")
 			(effects
 				(font
 					(size 1 1)
@@ -5136,12 +5136,12 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "GRM033R71C152KA01D"
+		(property "MFR.Part #" "1206B152K500NT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "96b340a5-92bb-43df-af1d-b1ef261fed21")
+			(uuid "11af9e9a-f6ec-42ec-8529-d7a561c4cae0")
 			(effects
 				(font
 					(size 1 1)
@@ -5154,7 +5154,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a0bb7c3-aaed-473a-8d31-6833cbe87f6d")
+			(uuid "d1569813-7af3-4d96-a66d-c6abbc35b255")
 			(effects
 				(font
 					(size 1 1)
@@ -5163,7 +5163,7 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/57c839b1-112e-45c9-aaa8-fc21f4cbda0e")
+		(path "/daf4d262-4a98-4d97-b71d-a37ea227d1d4")
 		(sheetname "/")
 		(sheetfile "optogenetics.kicad_sch")
 		(units
@@ -5182,7 +5182,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a3b8b298-77ea-4a83-802c-31773347a6e5")
+			(uuid "04c15abc-43a7-4ac8-9933-ba1e752c5c83")
 		)
 		(fp_line
 			(start -0.711252 0.91)
@@ -5192,7 +5192,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "71550f86-fd58-42e2-bbc4-13e860f5833b")
+			(uuid "9a7e1a22-34c7-4639-935d-efb8c30d6b58")
 		)
 		(fp_rect
 			(start -2.48 -1.15)
@@ -5232,7 +5232,7 @@
 			(size 1.325 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.188679)
-			(net "vin_red_led")
+			(net "vin_red_led_7.5v")
 			(pintype "passive")
 			(uuid "d607a0b0-6402-491c-9e74-9f07cdeda32c")
 		)
@@ -7810,7 +7810,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7822,7 +7822,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "AL5809-120P1-7"
+		(property "Datasheet" "AL5809-150P1-7"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7844,7 +7844,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7857,7 +7857,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8734,7 +8734,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8768,7 +8768,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8781,7 +8781,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9767,7 +9767,7 @@
 		(property "Reference" "H2"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
-			(uuid "e7aa55b0-9a31-4e30-853f-c081db4993f1")
+			(uuid "cb773fb4-a5d7-415b-9fa9-67e73787a621")
 			(effects
 				(font
 					(size 1 1)
@@ -9778,7 +9778,7 @@
 		(property "Value" "MountingHole"
 			(at 0 4.15 0)
 			(layer "F.Fab")
-			(uuid "2b87c982-5355-42db-8454-8373080ba13e")
+			(uuid "939cbeb9-6fd5-4841-86c0-da5e702848d2")
 			(effects
 				(font
 					(size 1 1)
@@ -9790,7 +9790,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "923cbda3-be8d-4b4d-92d5-6927055eea84")
+			(uuid "26f2c28a-4da9-4b62-8498-511319b3ed11")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9802,7 +9802,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d92b231-4281-47a1-ae22-fdd0c3c438e8")
+			(uuid "961f8522-0cf4-484f-a7ec-d67955cf5dae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12259,7 +12259,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12293,7 +12293,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12306,7 +12306,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12741,7 +12741,7 @@
 		(property "Reference" "H3"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
-			(uuid "abe6f3f9-c386-425b-8220-54fe082dcd95")
+			(uuid "247bb894-0f7f-409a-ba9b-1575f0952404")
 			(effects
 				(font
 					(size 1 1)
@@ -12752,7 +12752,7 @@
 		(property "Value" "MountingHole"
 			(at 0 4.15 0)
 			(layer "F.Fab")
-			(uuid "3f99f047-29a0-4a93-bba0-775ee5bc6fb6")
+			(uuid "34d1a33a-5333-4dbe-8f7a-02e2c253afa8")
 			(effects
 				(font
 					(size 1 1)
@@ -12764,7 +12764,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "37e6f68d-2d2f-4cb0-880a-a0cc8517a2b6")
+			(uuid "7f8f68f7-7965-4532-8c31-0f4701ba6f64")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12776,7 +12776,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5912a8eb-9964-455c-bdbf-27089a212a2c")
+			(uuid "152c4ff9-1bd9-4a08-95b6-05be385072a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14224,7 +14224,7 @@
 			(at 4.95 0 90)
 			(size 2.9 5.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "vin_red_led")
+			(net "vin_red_led_7.5v")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "6d9a7a13-4914-4975-ad26-14ac03ad76ad")
@@ -14251,7 +14251,7 @@
 		(property "Reference" "H4"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
-			(uuid "12b9481b-31f9-4c8e-b355-99df02b366b8")
+			(uuid "2c17c166-678c-4c63-a570-bb3d50591f5d")
 			(effects
 				(font
 					(size 1 1)
@@ -14262,7 +14262,7 @@
 		(property "Value" "MountingHole"
 			(at 0 4.15 0)
 			(layer "F.Fab")
-			(uuid "276b6ace-be18-4587-9a35-edbc22ab59eb")
+			(uuid "af56f081-2054-4474-81f8-3cf7968091e0")
 			(effects
 				(font
 					(size 1 1)
@@ -14274,7 +14274,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1eb7d903-d3d0-4882-90f8-f770afe436c0")
+			(uuid "c4c125f4-d8b9-45cd-9a89-336324ba9531")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14286,7 +14286,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2403f501-647d-4f31-8634-8dd86fc51caf")
+			(uuid "2d3186b8-a251-4795-a417-059993396500")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14924,7 +14924,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "510"
 			(at 0 2.28 0)
 			(layer "F.Fab")
 			(uuid "768a6f73-e55a-40f3-bae4-a4cbc252ec00")
@@ -14957,7 +14957,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C144438"
+		(property "LCSC Part #" "C2980182"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14970,7 +14970,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AC2010FK-071KL"
+		(property "MFR.Part #" "FRC2010J511TS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16162,7 +16162,7 @@
 			(size 2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "vin_GB_led")
+			(net "vin_GB_led_10.5V")
 			(pinfunction "AG_4")
 			(pintype "passive")
 			(uuid "2083644c-79ec-42d7-b389-f864684387eb")
@@ -16172,7 +16172,7 @@
 			(size 2 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "vin_red_led")
+			(net "vin_red_led_7.5v")
 			(pinfunction "AR_5")
 			(pintype "passive")
 			(uuid "27bbad96-5de9-44b8-8624-4f26f6688060")
@@ -16182,7 +16182,7 @@
 			(size 2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "vin_GB_led")
+			(net "vin_GB_led_10.5V")
 			(pinfunction "AB_6")
 			(pintype "passive")
 			(uuid "3ffd1490-1922-4e3b-9d9c-f1e51e1cbf29")
@@ -16209,7 +16209,7 @@
 		(property "Reference" "U21"
 			(at 0 -6.65 90)
 			(layer "F.SilkS")
-			(uuid "571d7405-ed13-4764-8cc3-ba91a5d0ad58")
+			(uuid "a75ecfda-6628-47c6-ac0b-fe2d6bdf883f")
 			(effects
 				(font
 					(size 1 1)
@@ -16220,7 +16220,7 @@
 		(property "Value" "LM2596S-ADJ"
 			(at 0 6.65 90)
 			(layer "F.Fab")
-			(uuid "4be49350-b1c8-41c6-ba70-04050e932a80")
+			(uuid "ff640dba-9d6e-4f3f-8919-15ea73295784")
 			(effects
 				(font
 					(size 1 1)
@@ -16232,7 +16232,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6074aba1-3fba-4ad6-bcf8-61dd4d6920d1")
+			(uuid "0c0ff521-368e-4f75-ac2a-2d8fe48173b7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16243,7 +16243,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6bc7d055-27fc-424d-aaaa-8a06323c8b4a")
+			(uuid "302c8a19-1a3e-44fd-920e-c0fcf674574a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17653,7 +17653,7 @@
 			(size 2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "vin_GB_led")
+			(net "vin_GB_led_10.5V")
 			(pinfunction "AG_4")
 			(pintype "passive")
 			(uuid "4f63587e-18c2-45fa-b83c-52b9a83f77c7")
@@ -17663,7 +17663,7 @@
 			(size 2 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "vin_red_led")
+			(net "vin_red_led_7.5v")
 			(pinfunction "AR_5")
 			(pintype "passive")
 			(uuid "105364d8-6583-4508-9fc9-8b2204baa59d")
@@ -17673,7 +17673,7 @@
 			(size 2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "vin_GB_led")
+			(net "vin_GB_led_10.5V")
 			(pinfunction "AB_6")
 			(pintype "passive")
 			(uuid "22701e8d-0fc6-4a4c-9dcd-4117e39b1a9c")
@@ -17708,7 +17708,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17742,7 +17742,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17755,7 +17755,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18499,7 +18499,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18533,7 +18533,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18546,7 +18546,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18981,7 +18981,7 @@
 		(property "Reference" "C10"
 			(at 0 -1.85 90)
 			(layer "F.SilkS")
-			(uuid "b8b28e1f-9a40-439e-8a1f-80b5579687fa")
+			(uuid "f4b956ef-2929-4fe2-8499-12a044478129")
 			(effects
 				(font
 					(size 1 1)
@@ -18992,7 +18992,7 @@
 		(property "Value" "1.5nF"
 			(at 0 1.85 90)
 			(layer "F.Fab")
-			(uuid "0419a705-36d0-4237-a41c-2fc9dd6ba751")
+			(uuid "696f2710-2782-4e87-aa1a-bb6cc28b231a")
 			(effects
 				(font
 					(size 1 1)
@@ -19004,7 +19004,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1cbce34e-7bf4-4cb2-b1a9-d66c93bf6520")
+			(uuid "2a79b3c2-dc71-4df6-b982-63f7ce40c83b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19015,19 +19015,19 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ecebc484-38c0-43b0-9b24-f393678c5184")
+			(uuid "81038a27-04bf-454b-8b1b-b7924e0eaad7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "LCSC Part #" "C161482"
+		(property "LCSC Part #" "C1851"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ef84d4ed-2e5e-4275-9561-4c92202349cc")
+			(uuid "c2072c94-6f1a-4885-bff1-72a013a33901")
 			(effects
 				(font
 					(size 1 1)
@@ -19035,12 +19035,12 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "GRM033R71C152KA01D"
+		(property "MFR.Part #" "1206B152K500NT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "16934085-8ed0-4bbf-b4bb-3e8d23685c49")
+			(uuid "d6a6cf61-ba33-4b32-8278-1dfea0f50733")
 			(effects
 				(font
 					(size 1 1)
@@ -19053,7 +19053,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3771070f-0d59-4272-8689-1b9caea3de58")
+			(uuid "c98ce58a-d009-46af-91b0-3efe37371c47")
 			(effects
 				(font
 					(size 1 1)
@@ -19081,7 +19081,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9aa67fe2-9a48-467f-9dae-e0eec193dccd")
+			(uuid "9fe443bb-eb34-4768-8099-550b542100c9")
 		)
 		(fp_line
 			(start -0.711252 0.91)
@@ -19091,7 +19091,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "76adb057-cd20-48c4-945d-55ac1e20de50")
+			(uuid "f4379ffc-203b-42d4-bef2-12be31f15d75")
 		)
 		(fp_rect
 			(start -2.48 -1.15)
@@ -19131,7 +19131,7 @@
 			(size 1.325 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.188679)
-			(net "vin_GB_led")
+			(net "vin_GB_led_10.5V")
 			(pintype "passive")
 			(uuid "d998e636-7083-47ec-9877-4013839d3a5f")
 		)
@@ -20932,7 +20932,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20966,7 +20966,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20979,7 +20979,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22979,7 +22979,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "510"
 			(at 0 2.28 0)
 			(layer "F.Fab")
 			(uuid "5d19cf6d-e59b-4bd2-b860-845fa1552f66")
@@ -23012,7 +23012,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C144438"
+		(property "LCSC Part #" "C2980182"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23025,7 +23025,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AC2010FK-071KL"
+		(property "MFR.Part #" "FRC2010J511TS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23555,7 +23555,7 @@
 			(size 3.325 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
-			(net "vin_GB_led")
+			(net "vin_GB_led_10.5V")
 			(pintype "passive")
 			(uuid "11710e60-8a8d-4be4-bed1-2558075fda10")
 		)
@@ -23598,7 +23598,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23632,7 +23632,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23645,7 +23645,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24399,7 +24399,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24433,7 +24433,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24446,7 +24446,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27606,7 +27606,7 @@
 		(property "Reference" "H1"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
-			(uuid "396ee31d-75e8-4835-ad44-5a20b2ff0d62")
+			(uuid "8da6aed9-d4d4-469f-843c-53802246ac92")
 			(effects
 				(font
 					(size 1 1)
@@ -27617,7 +27617,7 @@
 		(property "Value" "MountingHole"
 			(at 0 4.15 0)
 			(layer "F.Fab")
-			(uuid "2be116da-8a9c-4b54-bdd8-66e191a655d4")
+			(uuid "b226eb4c-8e8c-4f0d-8c2e-5f0b8e53e136")
 			(effects
 				(font
 					(size 1 1)
@@ -27629,7 +27629,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3746a38e-8a3b-4463-a747-f6061e26af27")
+			(uuid "ad41c16e-c282-4a39-8d88-a5d74ec634c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27641,7 +27641,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e21d6caa-662c-411a-8f3c-12d8f266b146")
+			(uuid "608e1e96-2203-43e0-8970-d7279f489962")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28253,7 +28253,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "3.9k"
 			(at 0 2.28 0)
 			(layer "F.Fab")
 			(uuid "e524e0b9-07c5-499d-ba81-f8eabd326e8b")
@@ -28286,7 +28286,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2960919"
+		(property "LCSC Part #" "C3013305"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28299,7 +28299,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "FRC2010J152 TS"
+		(property "MFR.Part #" "FRC2010F3901TS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28404,7 +28404,7 @@
 			(size 1.4 2.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.178571)
-			(net "vin_GB_led")
+			(net "vin_GB_led_10.5V")
 			(pintype "passive")
 			(uuid "71c56643-8c6a-4db4-bae3-f3ad9c73af86")
 		)
@@ -29171,7 +29171,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29205,7 +29205,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29218,7 +29218,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29661,7 +29661,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29695,7 +29695,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29708,7 +29708,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30924,7 +30924,7 @@
 			(size 2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "vin_GB_led")
+			(net "vin_GB_led_10.5V")
 			(pinfunction "AG_4")
 			(pintype "passive")
 			(uuid "bbf3e898-132d-47b5-a144-f9cdb1668201")
@@ -30934,7 +30934,7 @@
 			(size 2 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "vin_red_led")
+			(net "vin_red_led_7.5v")
 			(pinfunction "AR_5")
 			(pintype "passive")
 			(uuid "1c487fae-0728-4f79-a059-fb18acb7cece")
@@ -30944,7 +30944,7 @@
 			(size 2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "vin_GB_led")
+			(net "vin_GB_led_10.5V")
 			(pinfunction "AB_6")
 			(pintype "passive")
 			(uuid "ba3987c0-5bfe-4921-8d0f-1540e4d20094")
@@ -33794,238 +33794,6 @@
 		(uuid "d7af9db1-c68e-4982-a1aa-c25e1195c8b7")
 	)
 	(segment
-		(start 328.075 213)
-		(end 331.55 209.525)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_red_led")
-		(uuid "04757208-91a5-4981-aeb0-d9dd54445afe")
-	)
-	(segment
-		(start 335.95 204)
-		(end 335.95 201.55)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_red_led")
-		(uuid "2229c4da-6e12-41eb-8353-95dc43718ff2")
-	)
-	(segment
-		(start 335.95 201.55)
-		(end 331.8 197.4)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_red_led")
-		(uuid "324b12fe-4459-42b3-940c-ce637fac18d5")
-	)
-	(segment
-		(start 326.95 213)
-		(end 325 214.95)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_red_led")
-		(uuid "47c82af2-326d-4a96-9f5a-fb83e945d6f3")
-	)
-	(segment
-		(start 329.2 205.2)
-		(end 329.2 207.175)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_red_led")
-		(uuid "4f5a694a-7a7c-42d3-ab83-b022813ab368")
-	)
-	(segment
-		(start 326.95 213)
-		(end 328.075 213)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_red_led")
-		(uuid "5bf2c9ad-e732-4cfe-8397-97b3ab948313")
-	)
-	(segment
-		(start 350.95 204.312361)
-		(end 336.262361 204.312361)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_red_led")
-		(uuid "683a2d38-3533-4dce-b38c-d9ba7116ebc4")
-	)
-	(segment
-		(start 319.948796 231.120912)
-		(end 322.879088 231.120912)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_red_led")
-		(uuid "7b98e304-3c56-410f-a736-8de4d520c1c9")
-	)
-	(segment
-		(start 326.8 197.2)
-		(end 324.627884 197.2)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_red_led")
-		(uuid "7fffeab1-ccc5-4498-9ef8-c3414e8a8a55")
-	)
-	(segment
-		(start 322.879088 231.120912)
-		(end 325 229)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_red_led")
-		(uuid "99006356-7e07-4655-ac9d-9404a5d335e4")
-	)
-	(segment
-		(start 324.627884 197.2)
-		(end 324.548796 197.120912)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_red_led")
-		(uuid "9c73c606-b4f3-4734-8613-749ea14d2be5")
-	)
-	(segment
-		(start 323.919812 129.25)
-		(end 326.5 129.25)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_red_led")
-		(uuid "a43e93ca-8df4-4f31-b0d0-a20fbf822b74")
-	)
-	(segment
-		(start 326.592077 163.207923)
-		(end 324.992076 163.207923)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_red_led")
-		(uuid "cb07d188-c917-4e21-b2e0-dcc6fce669b8")
-	)
-	(segment
-		(start 335.95 204)
-		(end 330.4 204)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_red_led")
-		(uuid "d1e95ffc-08e0-436d-ae45-8b664911dea8")
-	)
-	(segment
-		(start 325 214.95)
-		(end 325 229)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_red_led")
-		(uuid "d692ee6c-6867-440b-8bab-b1dfaec29420")
-	)
-	(segment
-		(start 336.262361 204.312361)
-		(end 335.95 204)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_red_led")
-		(uuid "e8bfeb59-1edb-4a81-818a-196ad5947f3b")
-	)
-	(segment
-		(start 329.2 207.175)
-		(end 331.55 209.525)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_red_led")
-		(uuid "f58f8a2d-3817-4258-aec9-a019932c83ed")
-	)
-	(segment
-		(start 327 162.8)
-		(end 326.592077 163.207923)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_red_led")
-		(uuid "f71c721d-432d-426e-91b7-af6ef9705f1e")
-	)
-	(segment
-		(start 330.4 204)
-		(end 329.2 205.2)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_red_led")
-		(uuid "f7940918-f817-4881-b5a6-29133c073401")
-	)
-	(via
-		(at 326.8 197.2)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "vin_red_led")
-		(uuid "981cd551-dd79-49d3-b604-bb823ee26acc")
-	)
-	(via
-		(at 331.8 197.4)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "vin_red_led")
-		(uuid "cb365a10-6a83-4243-874a-64728c9427b8")
-	)
-	(via
-		(at 326.5 129.25)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "vin_red_led")
-		(uuid "eb6d6998-73c2-4eec-9500-8db2059e6275")
-	)
-	(via
-		(at 327 162.8)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "vin_red_led")
-		(uuid "f564cca3-8809-4e8d-8381-3d3cd6759ee0")
-	)
-	(segment
-		(start 327 197.4)
-		(end 326.8 197.2)
-		(width 0.9)
-		(layer "B.Cu")
-		(net "vin_red_led")
-		(uuid "2070d610-e3bd-4c44-a37b-8fea4a32a42d")
-	)
-	(segment
-		(start 327 197)
-		(end 326.8 197.2)
-		(width 0.9)
-		(layer "B.Cu")
-		(net "vin_red_led")
-		(uuid "2308ec49-9be4-4359-b2dd-f1501d852c8f")
-	)
-	(segment
-		(start 326.5 129.25)
-		(end 327 129.75)
-		(width 0.9)
-		(layer "B.Cu")
-		(net "vin_red_led")
-		(uuid "46366fc3-abb5-4e36-bfbe-787a1488a35f")
-	)
-	(segment
-		(start 327 129.75)
-		(end 327 162.8)
-		(width 0.9)
-		(layer "B.Cu")
-		(net "vin_red_led")
-		(uuid "5fc80adc-751e-4f36-89fc-76725d569c59")
-	)
-	(segment
-		(start 331.8 197.4)
-		(end 327 197.4)
-		(width 0.9)
-		(layer "B.Cu")
-		(net "vin_red_led")
-		(uuid "a09c1387-d2eb-4001-8513-d25f1bd5b2a7")
-	)
-	(segment
-		(start 327 162.8)
-		(end 327 197)
-		(width 0.9)
-		(layer "B.Cu")
-		(net "vin_red_led")
-		(uuid "bcd0c247-fba1-4b87-b096-0de56a41fed7")
-	)
-	(segment
 		(start 343.5 139.5)
 		(end 346.45 142.45)
 		(width 0.9)
@@ -34080,326 +33848,6 @@
 		(layer "F.Cu")
 		(net "Net-(D25-K)")
 		(uuid "cde3b0e3-fd1c-4c73-bd08-305c2097969a")
-	)
-	(segment
-		(start 329.5 160.5)
-		(end 329.5 139.22824)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "00aaf750-c4cd-4259-a6a6-ec8ffef469a3")
-	)
-	(segment
-		(start 330.06412 130.66412)
-		(end 325.5 135.22824)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "076c826f-bc88-4d1a-9016-5c6961ebfa8b")
-	)
-	(segment
-		(start 319.120912 232.920912)
-		(end 319.948796 232.920912)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "08258009-2db9-44fe-93b2-a791ff8cc148")
-	)
-	(segment
-		(start 329.5 194)
-		(end 328.179088 195.320912)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "0d059b85-c917-477d-97de-cd729835fbf0")
-	)
-	(segment
-		(start 329.5 164.5)
-		(end 329.5 194)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "17c8969f-c565-433c-94e6-a4020e0e201d")
-	)
-	(segment
-		(start 322.55 127.45)
-		(end 323.919812 127.45)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "1c0b9560-dd8a-498a-b9b4-d40788af0022")
-	)
-	(segment
-		(start 325.5 135.22824)
-		(end 332.16574 135.22824)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "1d0231b1-72dd-4003-a50f-f7e03287b7f9")
-	)
-	(segment
-		(start 328.179088 195.320912)
-		(end 324.548796 195.320912)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "1ed7eedd-3837-4e8b-a376-69e8af984a85")
-	)
-	(segment
-		(start 330.06412 130.66412)
-		(end 331.43588 130.66412)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "1edcab69-8fa9-40d0-8ab3-54328adf3580")
-	)
-	(segment
-		(start 323.919812 131.05)
-		(end 323.919812 133.648052)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "26102d5d-506f-47a8-81fb-db076dc7b1b2")
-	)
-	(segment
-		(start 321.8 128.2)
-		(end 322.55 127.45)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "280b42a4-5bf9-4e52-9710-da781b2b0317")
-	)
-	(segment
-		(start 318.2 232)
-		(end 319.120912 232.920912)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "310d071d-864e-4678-b351-33c3d2b6a368")
-	)
-	(segment
-		(start 318.2 215.8)
-		(end 318.2 227.572116)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "32e111a8-ea09-4ccc-8e6e-342dc3c00a5f")
-	)
-	(segment
-		(start 350 132.55)
-		(end 344.05 132.55)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "35be47f9-cb32-4d0a-a6de-1e87241b6dc8")
-	)
-	(segment
-		(start 324.992076 161.407923)
-		(end 328.592077 161.407923)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "49dfa9e1-b39c-4157-8836-78f74d0e7207")
-	)
-	(segment
-		(start 328.579088 198.920912)
-		(end 329.5 198)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "5822f0f5-16af-4679-943e-402b8e9c190d")
-	)
-	(segment
-		(start 318.2 227.572116)
-		(end 318.2 232)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "592e9219-4f9f-45d3-846e-7e4866719ae0")
-	)
-	(segment
-		(start 332.16574 135.22824)
-		(end 332.5 135.5625)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "666d0e26-d918-41ed-89a1-4fc2dbcd8139")
-	)
-	(segment
-		(start 341 129.5)
-		(end 339 127.5)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "7200ab0c-4efe-408f-8c3c-2362b0fde041")
-	)
-	(segment
-		(start 322.919813 131.05)
-		(end 321.8 129.930187)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "740e6796-6057-447a-bab0-fbbf3b09625c")
-	)
-	(segment
-		(start 323.629812 131.34)
-		(end 323.919812 131.05)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "77248e06-b5be-4f72-bc53-f5c4e869003a")
-	)
-	(segment
-		(start 329.5 164.5)
-		(end 328.992077 165.007923)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "793fbd72-607e-4693-ba81-a5f0f029208b")
-	)
-	(segment
-		(start 321.8 129.930187)
-		(end 321.8 128.2)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "7db059ac-7fe0-4312-8751-eb1ad8135b5d")
-	)
-	(segment
-		(start 329.5 198)
-		(end 329.5 197.4)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "9e6b0faa-c5d8-4a09-8795-985f00ac0496")
-	)
-	(segment
-		(start 327.6 199.3)
-		(end 327.6 206.4)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "a3cfd384-bee8-4bc8-a8b8-4184d97b2d2e")
-	)
-	(segment
-		(start 329.5 197.4)
-		(end 329.5 194)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "a7916ffc-8959-4309-979b-602942fc4cb4")
-	)
-	(segment
-		(start 323.919812 131.05)
-		(end 322.919813 131.05)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "a9b7abf0-0d6a-4fbd-aeb9-f715c9ff12c0")
-	)
-	(segment
-		(start 327.6 206.4)
-		(end 318.2 215.8)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "afc0e3fd-4708-4b9d-8f67-49a161c41882")
-	)
-	(segment
-		(start 329.5 139.22824)
-		(end 325.5 135.22824)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "b667c6ea-cb97-45c9-b32a-f7791cb417e6")
-	)
-	(segment
-		(start 332.5 135.5625)
-		(end 332.0625 135.5625)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "b96ae40f-b692-4c5d-b420-172b70ec66fc")
-	)
-	(segment
-		(start 331.43588 130.66412)
-		(end 334.6 127.5)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "b9882916-51e3-4c8d-b609-9691f5505ae6")
-	)
-	(segment
-		(start 334.6 127.5)
-		(end 339 127.5)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "bbd014b4-ea2e-4169-9a39-088a5e8b8119")
-	)
-	(segment
-		(start 318.2 227.572116)
-		(end 319.948796 229.320912)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "bfbdfbeb-54fd-4d87-9031-0ccdd172e288")
-	)
-	(segment
-		(start 329.5 197.4)
-		(end 327.6 199.3)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "d4b007f9-0085-441f-bb80-0c84fcb2c855")
-	)
-	(segment
-		(start 329.5 160.5)
-		(end 329.5 164.5)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "d59a8098-bf3f-44b5-95aa-5c4977ba9d7f")
-	)
-	(segment
-		(start 329.5 160.5)
-		(end 328.592077 161.407923)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "d9f24e46-3f5b-4d7e-b901-8ba47925857e")
-	)
-	(segment
-		(start 328.992077 165.007923)
-		(end 324.992076 165.007923)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "dcb76b5f-72fb-4b32-8c99-db3bfd6fa8b2")
-	)
-	(segment
-		(start 324.548796 198.920912)
-		(end 328.579088 198.920912)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "ddd6921a-8d37-4630-92d7-b2ebd7d86412")
-	)
-	(segment
-		(start 323.919812 133.648052)
-		(end 325.5 135.22824)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "e676fd3f-87b0-4c22-8d47-645bd2955894")
-	)
-	(segment
-		(start 344.05 132.55)
-		(end 341 129.5)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "vin_GB_led")
-		(uuid "feba85a2-0c88-41ab-8012-92835990f1e4")
 	)
 	(segment
 		(start 219.6 122.25)
@@ -34847,7 +34295,15 @@
 		(width 0.9)
 		(layer "F.Cu")
 		(net "Net-(U22-FB)")
-		(uuid "3258e16c-a4bd-4014-b916-4bb8e686aca4")
+		(uuid "7f6fbaf7-4e05-431d-baeb-3f4ad50d5e27")
+	)
+	(segment
+		(start 333.95 208.8)
+		(end 331.55 206.4)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "Net-(U22-FB)")
+		(uuid "868f0ad0-4b00-4631-8d48-4da2d2c46abe")
 	)
 	(segment
 		(start 334.35 210.4)
@@ -34864,14 +34320,6 @@
 		(layer "F.Cu")
 		(net "Net-(U22-FB)")
 		(uuid "c4625d46-94ff-4235-853d-afa757f6eeac")
-	)
-	(segment
-		(start 333.95 208.8)
-		(end 331.55 206.4)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "Net-(U22-FB)")
-		(uuid "c9bff852-0ca6-4aa5-8bfb-c99946e15bd4")
 	)
 	(segment
 		(start 334.35 212.2)
@@ -36692,12 +36140,28 @@
 		(uuid "d88c6a9e-070f-4e85-bcc4-0ac046d601b9")
 	)
 	(segment
+		(start 336.2 129.5)
+		(end 335.4375 129.5)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "Net-(U21-FB)")
+		(uuid "34d36762-7d94-4e40-8169-70d1e5f0a504")
+	)
+	(segment
 		(start 340.4 135)
 		(end 340.4 133.7)
 		(width 0.9)
 		(layer "F.Cu")
 		(net "Net-(U21-FB)")
 		(uuid "42abe1a0-c850-484b-90d9-116c0847f369")
+	)
+	(segment
+		(start 335.4375 129.5)
+		(end 332.5 132.4375)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "Net-(U21-FB)")
+		(uuid "533ff4c0-f22d-4218-aaed-ff49e74a530c")
 	)
 	(segment
 		(start 338.5 139)
@@ -36708,28 +36172,12 @@
 		(uuid "5ce53831-c58b-4869-984a-e7b8806ada29")
 	)
 	(segment
-		(start 336.2 129.5)
-		(end 335.4375 129.5)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "Net-(U21-FB)")
-		(uuid "60500d7c-6447-4876-9827-b5f093b124f7")
-	)
-	(segment
 		(start 336 139)
 		(end 334.8 140.2)
 		(width 0.9)
 		(layer "F.Cu")
 		(net "Net-(U21-FB)")
 		(uuid "75c542fd-3c83-4977-8f20-74603bbb1528")
-	)
-	(segment
-		(start 335.4375 129.5)
-		(end 332.5 132.4375)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "Net-(U21-FB)")
-		(uuid "7f97d1d6-be11-48eb-9e40-d76b8ac4e228")
 	)
 	(segment
 		(start 340.4 133.7)
@@ -37694,6 +37142,566 @@
 		(layer "F.Cu")
 		(net "Net-(D20-A)")
 		(uuid "7b8ab13b-05f3-4379-a391-a989e8ee9ad0")
+	)
+	(segment
+		(start 329.5 160.5)
+		(end 329.5 139.22824)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "00aaf750-c4cd-4259-a6a6-ec8ffef469a3")
+	)
+	(segment
+		(start 330.06412 130.66412)
+		(end 325.5 135.22824)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "076c826f-bc88-4d1a-9016-5c6961ebfa8b")
+	)
+	(segment
+		(start 319.120912 232.920912)
+		(end 319.948796 232.920912)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "08258009-2db9-44fe-93b2-a791ff8cc148")
+	)
+	(segment
+		(start 329.5 194)
+		(end 328.179088 195.320912)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "0d059b85-c917-477d-97de-cd729835fbf0")
+	)
+	(segment
+		(start 329.5 164.5)
+		(end 329.5 194)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "17c8969f-c565-433c-94e6-a4020e0e201d")
+	)
+	(segment
+		(start 322.55 127.45)
+		(end 323.919812 127.45)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "1c0b9560-dd8a-498a-b9b4-d40788af0022")
+	)
+	(segment
+		(start 328.179088 195.320912)
+		(end 324.548796 195.320912)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "1ed7eedd-3837-4e8b-a376-69e8af984a85")
+	)
+	(segment
+		(start 330.06412 130.66412)
+		(end 331.43588 130.66412)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "1edcab69-8fa9-40d0-8ab3-54328adf3580")
+	)
+	(segment
+		(start 323.919812 131.05)
+		(end 323.919812 133.648052)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "26102d5d-506f-47a8-81fb-db076dc7b1b2")
+	)
+	(segment
+		(start 321.8 128.2)
+		(end 322.55 127.45)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "280b42a4-5bf9-4e52-9710-da781b2b0317")
+	)
+	(segment
+		(start 318.2 232)
+		(end 319.120912 232.920912)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "310d071d-864e-4678-b351-33c3d2b6a368")
+	)
+	(segment
+		(start 318.2 215.8)
+		(end 318.2 227.572116)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "32e111a8-ea09-4ccc-8e6e-342dc3c00a5f")
+	)
+	(segment
+		(start 350 132.55)
+		(end 344.05 132.55)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "35be47f9-cb32-4d0a-a6de-1e87241b6dc8")
+	)
+	(segment
+		(start 326.40824 134.32)
+		(end 325.5 135.22824)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "3a0f1ba7-c9c1-482c-b869-f4b33ecc6382")
+	)
+	(segment
+		(start 324.992076 161.407923)
+		(end 328.592077 161.407923)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "49dfa9e1-b39c-4157-8836-78f74d0e7207")
+	)
+	(segment
+		(start 328.579088 198.920912)
+		(end 329.5 198)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "5822f0f5-16af-4679-943e-402b8e9c190d")
+	)
+	(segment
+		(start 318.2 227.572116)
+		(end 318.2 232)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "592e9219-4f9f-45d3-846e-7e4866719ae0")
+	)
+	(segment
+		(start 331.0375 135.5625)
+		(end 332.5 135.5625)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "650de285-ef86-4cf0-a441-ff0265cb544c")
+	)
+	(segment
+		(start 341 129.5)
+		(end 339 127.5)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "7200ab0c-4efe-408f-8c3c-2362b0fde041")
+	)
+	(segment
+		(start 322.919813 131.05)
+		(end 321.8 129.930187)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "740e6796-6057-447a-bab0-fbbf3b09625c")
+	)
+	(segment
+		(start 323.629812 131.34)
+		(end 323.919812 131.05)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "77248e06-b5be-4f72-bc53-f5c4e869003a")
+	)
+	(segment
+		(start 329.5 164.5)
+		(end 328.992077 165.007923)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "793fbd72-607e-4693-ba81-a5f0f029208b")
+	)
+	(segment
+		(start 321.8 129.930187)
+		(end 321.8 128.2)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "7db059ac-7fe0-4312-8751-eb1ad8135b5d")
+	)
+	(segment
+		(start 329.5 139.22824)
+		(end 329.5 137.1)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "9ab7fbb5-1688-4d5b-906f-9b4e5907b7f6")
+	)
+	(segment
+		(start 329.5 198)
+		(end 329.5 197.4)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "9e6b0faa-c5d8-4a09-8795-985f00ac0496")
+	)
+	(segment
+		(start 327.6 199.3)
+		(end 327.6 206.4)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "a3cfd384-bee8-4bc8-a8b8-4184d97b2d2e")
+	)
+	(segment
+		(start 329.5 197.4)
+		(end 329.5 194)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "a7916ffc-8959-4309-979b-602942fc4cb4")
+	)
+	(segment
+		(start 323.919812 131.05)
+		(end 322.919813 131.05)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "a9b7abf0-0d6a-4fbd-aeb9-f715c9ff12c0")
+	)
+	(segment
+		(start 327.6 206.4)
+		(end 318.2 215.8)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "afc0e3fd-4708-4b9d-8f67-49a161c41882")
+	)
+	(segment
+		(start 329.5 137.1)
+		(end 331.0375 135.5625)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "b087d469-7187-44d0-baeb-53e2675926a3")
+	)
+	(segment
+		(start 329.5 139.22824)
+		(end 325.5 135.22824)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "b667c6ea-cb97-45c9-b32a-f7791cb417e6")
+	)
+	(segment
+		(start 331.43588 130.66412)
+		(end 334.6 127.5)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "b9882916-51e3-4c8d-b609-9691f5505ae6")
+	)
+	(segment
+		(start 334.6 127.5)
+		(end 339 127.5)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "bbd014b4-ea2e-4169-9a39-088a5e8b8119")
+	)
+	(segment
+		(start 318.2 227.572116)
+		(end 319.948796 229.320912)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "bfbdfbeb-54fd-4d87-9031-0ccdd172e288")
+	)
+	(segment
+		(start 329.5 197.4)
+		(end 327.6 199.3)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "d4b007f9-0085-441f-bb80-0c84fcb2c855")
+	)
+	(segment
+		(start 329.5 160.5)
+		(end 329.5 164.5)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "d59a8098-bf3f-44b5-95aa-5c4977ba9d7f")
+	)
+	(segment
+		(start 329.5 160.5)
+		(end 328.592077 161.407923)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "d9f24e46-3f5b-4d7e-b901-8ba47925857e")
+	)
+	(segment
+		(start 328.992077 165.007923)
+		(end 324.992076 165.007923)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "dcb76b5f-72fb-4b32-8c99-db3bfd6fa8b2")
+	)
+	(segment
+		(start 324.548796 198.920912)
+		(end 328.579088 198.920912)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "ddd6921a-8d37-4630-92d7-b2ebd7d86412")
+	)
+	(segment
+		(start 323.919812 133.648052)
+		(end 325.5 135.22824)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "e676fd3f-87b0-4c22-8d47-645bd2955894")
+	)
+	(segment
+		(start 344.05 132.55)
+		(end 341 129.5)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_GB_led_10.5V")
+		(uuid "feba85a2-0c88-41ab-8012-92835990f1e4")
+	)
+	(segment
+		(start 335.95 204)
+		(end 335.95 201.55)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "2229c4da-6e12-41eb-8353-95dc43718ff2")
+	)
+	(segment
+		(start 335.95 201.55)
+		(end 331.8 197.4)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "324b12fe-4459-42b3-940c-ce637fac18d5")
+	)
+	(segment
+		(start 329.2 207.175)
+		(end 326.95 209.425)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "38b8bd47-86f0-4f0e-aff2-cd653fe0c696")
+	)
+	(segment
+		(start 326.95 213)
+		(end 325 214.95)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "47c82af2-326d-4a96-9f5a-fb83e945d6f3")
+	)
+	(segment
+		(start 329.2 207.175)
+		(end 329.2 205.2)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "498fa55f-1c60-4511-9466-8a089185e6ba")
+	)
+	(segment
+		(start 350.95 204.312361)
+		(end 336.262361 204.312361)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "683a2d38-3533-4dce-b38c-d9ba7116ebc4")
+	)
+	(segment
+		(start 319.948796 231.120912)
+		(end 322.879088 231.120912)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "7b98e304-3c56-410f-a736-8de4d520c1c9")
+	)
+	(segment
+		(start 326.8 197.2)
+		(end 324.627884 197.2)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "7fffeab1-ccc5-4498-9ef8-c3414e8a8a55")
+	)
+	(segment
+		(start 331.55 209.525)
+		(end 329.2 207.175)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "97090365-536f-4021-bd21-5c2b3b14f045")
+	)
+	(segment
+		(start 322.879088 231.120912)
+		(end 325 229)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "99006356-7e07-4655-ac9d-9404a5d335e4")
+	)
+	(segment
+		(start 324.627884 197.2)
+		(end 324.548796 197.120912)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "9c73c606-b4f3-4734-8613-749ea14d2be5")
+	)
+	(segment
+		(start 323.919812 129.25)
+		(end 326.5 129.25)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "a43e93ca-8df4-4f31-b0d0-a20fbf822b74")
+	)
+	(segment
+		(start 326.592077 163.207923)
+		(end 324.992076 163.207923)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "cb07d188-c917-4e21-b2e0-dcc6fce669b8")
+	)
+	(segment
+		(start 335.95 204)
+		(end 330.4 204)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "d1e95ffc-08e0-436d-ae45-8b664911dea8")
+	)
+	(segment
+		(start 325 214.95)
+		(end 325 229)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "d692ee6c-6867-440b-8bab-b1dfaec29420")
+	)
+	(segment
+		(start 326.95 209.425)
+		(end 326.95 213)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "d8c6cf79-735d-4fa4-aad2-e9c502bea638")
+	)
+	(segment
+		(start 336.262361 204.312361)
+		(end 335.95 204)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "e8bfeb59-1edb-4a81-818a-196ad5947f3b")
+	)
+	(segment
+		(start 327 162.8)
+		(end 326.592077 163.207923)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "f71c721d-432d-426e-91b7-af6ef9705f1e")
+	)
+	(segment
+		(start 330.4 204)
+		(end 329.2 205.2)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "f7940918-f817-4881-b5a6-29133c073401")
+	)
+	(via
+		(at 326.8 197.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "981cd551-dd79-49d3-b604-bb823ee26acc")
+	)
+	(via
+		(at 331.8 197.4)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "cb365a10-6a83-4243-874a-64728c9427b8")
+	)
+	(via
+		(at 326.5 129.25)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "eb6d6998-73c2-4eec-9500-8db2059e6275")
+	)
+	(via
+		(at 327 162.8)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "f564cca3-8809-4e8d-8381-3d3cd6759ee0")
+	)
+	(segment
+		(start 327 197.4)
+		(end 326.8 197.2)
+		(width 0.9)
+		(layer "B.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "2070d610-e3bd-4c44-a37b-8fea4a32a42d")
+	)
+	(segment
+		(start 327 197)
+		(end 326.8 197.2)
+		(width 0.9)
+		(layer "B.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "2308ec49-9be4-4359-b2dd-f1501d852c8f")
+	)
+	(segment
+		(start 326.5 129.25)
+		(end 327 129.75)
+		(width 0.9)
+		(layer "B.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "46366fc3-abb5-4e36-bfbe-787a1488a35f")
+	)
+	(segment
+		(start 327 129.75)
+		(end 327 162.8)
+		(width 0.9)
+		(layer "B.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "5fc80adc-751e-4f36-89fc-76725d569c59")
+	)
+	(segment
+		(start 331.8 197.4)
+		(end 327 197.4)
+		(width 0.9)
+		(layer "B.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "a09c1387-d2eb-4001-8513-d25f1bd5b2a7")
+	)
+	(segment
+		(start 327 162.8)
+		(end 327 197)
+		(width 0.9)
+		(layer "B.Cu")
+		(net "vin_red_led_7.5v")
+		(uuid "bcd0c247-fba1-4b87-b096-0de56a41fed7")
 	)
 	(zone
 		(layers "F.Cu" "B.Cu")

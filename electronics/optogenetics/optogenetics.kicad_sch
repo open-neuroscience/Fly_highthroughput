@@ -4095,6 +4095,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 33.02) (xy 241.3 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba4906f-707a-4ce6-8e9c-07706b39b1b0")
+	)
+	(wire
+		(pts
 			(xy 422.91 245.11) (xy 412.75 245.11)
 		)
 		(stroke
@@ -4302,16 +4312,6 @@
 			(type default)
 		)
 		(uuid "2b364832-3e48-4cce-acb3-f3cc9752aa59")
-	)
-	(wire
-		(pts
-			(xy 229.87 33.02) (xy 241.3 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e1a97a8-9202-4c11-aa8f-112c568e84d4")
 	)
 	(wire
 		(pts
@@ -6735,7 +6735,7 @@
 			)
 		)
 	)
-	(global_label "vin_GB_led"
+	(global_label "vin_GB_led_10.5V"
 		(shape input)
 		(at 449.58 223.52 0)
 		(fields_autoplaced yes)
@@ -6747,7 +6747,7 @@
 		)
 		(uuid "0f95f165-7513-4e5b-bf5b-7323689c1423")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 462.6646 223.52 0)
+			(at 468.9541 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6756,6 +6756,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "vin_red_led_7.5v"
+		(shape input)
+		(at 66.04 207.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "135ae89b-e6f3-4244-a0fa-ed56bbe8b02f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.5126 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6783,9 +6807,9 @@
 			)
 		)
 	)
-	(global_label "vin_red_led"
+	(global_label "vin_GB_led_10.5V"
 		(shape input)
-		(at 66.04 207.01 180)
+		(at 48.26 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6793,9 +6817,9 @@
 			)
 			(justify right)
 		)
-		(uuid "191b35ba-4784-460f-977b-425132374b93")
+		(uuid "19c2fa6f-5678-4c4c-93da-1f3ee4b66f2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.4716 207.01 0)
+			(at 28.8859 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6852,6 +6876,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "vin_GB_led_10.5V"
+		(shape input)
+		(at 35.56 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "366463e0-e597-41a5-bdd6-f566fd90b7f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.1859 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6927,30 +6975,6 @@
 			)
 		)
 	)
-	(global_label "vin_GB_led"
-		(shape input)
-		(at 35.56 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "472acb37-58f4-4efb-9e70-52da5a267ebb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.4754 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "RGB_B2_led"
 		(shape input)
 		(at 260.35 247.65 0)
@@ -6999,6 +7023,30 @@
 			)
 		)
 	)
+	(global_label "vin_red_led_7.5v"
+		(shape input)
+		(at 66.04 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "597ff7c8-a88a-4b48-aea4-c181e0b9bc50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.5126 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "vin_white_led"
 		(shape input)
 		(at 83.82 354.33 180)
@@ -7012,6 +7060,30 @@
 		(uuid "6c30dd09-60bc-4ffb-a8a8-7f7c5b52009b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 68.3768 354.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "vin_red_led_7.5v"
+		(shape input)
+		(at 71.12 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6fd7d53d-8260-410b-a84b-0ef0e3aeac57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.5926 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7191,30 +7263,6 @@
 			)
 		)
 	)
-	(global_label "vin_GB_led"
-		(shape input)
-		(at 48.26 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a0dca3f5-299b-4522-be7d-17a96d5041f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.1754 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "vin_white_led"
 		(shape input)
 		(at 80.01 379.73 180)
@@ -7287,9 +7335,9 @@
 			)
 		)
 	)
-	(global_label "vin_red_led"
+	(global_label "vin_red_led_7.5v"
 		(shape input)
-		(at 71.12 77.47 180)
+		(at 71.12 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7297,9 +7345,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b8f68bc6-4fbd-49c8-a058-01afff17b8f8")
+		(uuid "bc19879f-5911-42c1-8ebb-92de3caa06ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.5516 77.47 0)
+			(at 52.5926 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7359,31 +7407,7 @@
 			)
 		)
 	)
-	(global_label "vin_red_led"
-		(shape input)
-		(at 71.12 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d0fa5787-8f77-4c20-870a-1fd8838d9db9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.5516 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "vin_red_led"
+	(global_label "vin_red_led_7.5v"
 		(shape input)
 		(at 487.68 274.32 0)
 		(fields_autoplaced yes)
@@ -7395,7 +7419,7 @@
 		)
 		(uuid "dfddc397-28a7-465a-b214-cf55a2c9a287")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 501.2484 274.32 0)
+			(at 506.2074 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7404,30 +7428,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "vin_red_led"
-		(shape input)
-		(at 66.04 185.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eef6d437-0bae-49c2-af24-f07225608039")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.4716 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -7651,7 +7651,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 204.47 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7696,7 +7696,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 184.15 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -7707,7 +7707,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 184.15 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -8406,7 +8406,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 209.55 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8451,7 +8451,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 189.23 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8462,7 +8462,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 189.23 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10530,7 +10530,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 204.47 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10575,7 +10575,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 184.15 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -10586,7 +10586,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 184.15 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -10645,7 +10645,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "510"
 			(at 440.69 277.876 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10689,7 +10689,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C144438"
+		(property "LCSC Part #" "C2980182"
 			(at 436.88 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -10700,7 +10700,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AC2010FK-071KL"
+		(property "MFR.Part #" "FRC2010J511TS"
 			(at 436.88 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -11157,7 +11157,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 204.47 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11202,7 +11202,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 184.15 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -11213,7 +11213,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 184.15 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -11875,7 +11875,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 209.55 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11920,7 +11920,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 189.23 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11931,7 +11931,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 189.23 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12534,7 +12534,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 204.47 229.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12579,7 +12579,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 184.15 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -12590,7 +12590,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 184.15 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -12900,120 +12900,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 430.53 265.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "57c839b1-112e-45c9-aaa8-fc21f4cbda0e")
-		(property "Reference" "C13"
-			(at 427.736 267.716 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.5nF"
-			(at 425.45 262.636 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 431.4952 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 430.53 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 430.53 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C161482"
-			(at 430.53 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR.Part #" "GRM033R71C152KA01D"
-			(at 430.53 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Поле4" ""
-			(at 430.53 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7357152b-cf41-4736-a7e4-36efac1f72a2")
-		)
-		(pin "2"
-			(uuid "a374bab2-6bb1-4aa1-999e-2d806ae146ad")
-		)
-		(instances
-			(project "optogenetics"
-				(path "/4e049b5c-01a9-46de-ac3b-1aba0130a787"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 127 276.86 0)
 		(mirror y)
@@ -13149,7 +13035,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 204.47 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13194,7 +13080,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 184.15 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -13205,7 +13091,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 184.15 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -13264,7 +13150,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "3.9k"
 			(at 404.114 211.836 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13308,7 +13194,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2960919"
+		(property "LCSC Part #" "C3013305"
 			(at 398.78 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -13319,7 +13205,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "FRC2010J152 TS"
+		(property "MFR.Part #" "FRC2010F3901TS"
 			(at 398.78 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -15355,7 +15241,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "2.7k"
 			(at 442.214 262.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15399,7 +15285,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2999597"
+		(property "LCSC Part #" "C2934018"
 			(at 436.88 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -15410,7 +15296,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "FRC2010F6800TS"
+		(property "MFR.Part #" "FRC2010J272 TS"
 			(at 436.88 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -15733,7 +15619,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C161482"
+		(property "LCSC Part #" "C1851"
 			(at 392.43 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -15744,7 +15630,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "GRM033R71C152KA01D"
+		(property "MFR.Part #" "1206B152K500NT"
 			(at 392.43 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -16651,7 +16537,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "510"
 			(at 402.59 227.076 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16695,7 +16581,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C144438"
+		(property "LCSC Part #" "C2980182"
 			(at 398.78 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -16706,7 +16592,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AC2010FK-071KL"
+		(property "MFR.Part #" "FRC2010J511TS"
 			(at 398.78 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -17254,7 +17140,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 209.55 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17299,7 +17185,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 189.23 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -17310,7 +17196,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 189.23 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -17642,7 +17528,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 209.55 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17664,7 +17550,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "AL5809-120P1-7"
+		(property "Datasheet" "AL5809-150P1-7"
 			(at 189.23 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -17687,7 +17573,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 189.23 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -17698,7 +17584,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 189.23 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -18831,6 +18717,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 430.53 265.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "daf4d262-4a98-4d97-b71d-a37ea227d1d4")
+		(property "Reference" "C13"
+			(at 427.736 267.716 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5nF"
+			(at 425.45 262.636 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 431.4952 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 430.53 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 430.53 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C1851"
+			(at 430.53 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" "1206B152K500NT"
+			(at 430.53 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Поле4" ""
+			(at 430.53 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ec690f5-045d-4881-aef5-684f2d1b0f85")
+		)
+		(pin "2"
+			(uuid "4b62ee7e-c5d5-4fde-8a33-ccd8c5058d73")
+		)
+		(instances
+			(project "optogenetics"
+				(path "/4e049b5c-01a9-46de-ac3b-1aba0130a787"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2026-01-17_23-53-52:AL5809-20P1-7")
 		(at 184.15 224.79 0)
 		(unit 1)
@@ -18852,7 +18852,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 204.47 217.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18897,7 +18897,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 184.15 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -18908,7 +18908,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 184.15 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -19445,7 +19445,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 209.55 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19490,7 +19490,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 189.23 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -19501,7 +19501,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 189.23 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -20229,7 +20229,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-120P1-7"
+		(property "Value" "AL5809-150P1-7"
 			(at 209.55 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20274,7 +20274,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C531169"
+		(property "LCSC Part #" "C2679060"
 			(at 189.23 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -20285,7 +20285,7 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "AL5809-120P1-7"
+		(property "MFR.Part #" "AL5809-150P1-7"
 			(at 189.23 77.47 0)
 			(hide yes)
 			(show_name no)
