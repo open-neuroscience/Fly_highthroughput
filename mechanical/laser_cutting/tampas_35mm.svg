@@ -1,0 +1,3178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="204mm"
+   height="234mm"
+   viewBox="0 0 204 234"
+   version="1.1"
+   id="svg392"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs392" />
+  <g
+     id="Cut014"
+     transform="matrix(1,0,0,-1,71,247)">
+    <path
+       id="Cut014_f0000"
+       d="M -69,245 V 15 15 Z"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;fill-opacity:1;fill-rule:evenodd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       id="Cut014_f0001"
+       d="m -69,15 v 0 h 200 v 0 z"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;fill-opacity:1;fill-rule:evenodd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" />
+    <circle
+       cx="-49"
+       cy="35"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle1" />
+    <path
+       id="Cut014_f0003"
+       d="M 131,245 H -69 v 0 z"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;fill-opacity:1;fill-rule:evenodd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" />
+    <circle
+       cx="-49"
+       cy="35"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle2" />
+    <path
+       id="Cut014_f0005"
+       d="m 131,15 v 0 230 0 z"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;fill-opacity:1;fill-rule:evenodd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" />
+    <circle
+       cx="-49"
+       cy="35"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle3" />
+    <circle
+       cx="-49"
+       cy="73"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle4" />
+    <circle
+       cx="-9"
+       cy="35"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle5" />
+    <circle
+       cx="31"
+       cy="35"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle6" />
+    <circle
+       cx="-9"
+       cy="73"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle7" />
+    <circle
+       cx="31"
+       cy="73"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle8" />
+    <circle
+       cx="-49"
+       cy="111"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle9" />
+    <circle
+       cx="-9"
+       cy="111"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle10" />
+    <circle
+       cx="31"
+       cy="111"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle11" />
+    <circle
+       cx="71"
+       cy="35"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle12" />
+    <circle
+       cx="71"
+       cy="73"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle13" />
+    <circle
+       cx="111"
+       cy="35"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle14" />
+    <circle
+       cx="111"
+       cy="73"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle15" />
+    <circle
+       cx="71"
+       cy="111"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle16" />
+    <circle
+       cx="111"
+       cy="111"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle17" />
+    <circle
+       cx="-49"
+       cy="149"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle18" />
+    <circle
+       cx="-9"
+       cy="149"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle19" />
+    <circle
+       cx="31"
+       cy="149"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle20" />
+    <circle
+       cx="-49"
+       cy="187"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle21" />
+    <circle
+       cx="-49"
+       cy="225"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle22" />
+    <circle
+       cx="-9"
+       cy="187"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle23" />
+    <circle
+       cx="31"
+       cy="187"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle24" />
+    <circle
+       cx="-9"
+       cy="225"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle25" />
+    <circle
+       cx="31"
+       cy="225"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle26" />
+    <circle
+       cx="71"
+       cy="149"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle27" />
+    <circle
+       cx="111"
+       cy="149"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle28" />
+    <circle
+       cx="71"
+       cy="187"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle29" />
+    <circle
+       cx="71"
+       cy="225"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle30" />
+    <circle
+       cx="111"
+       cy="187"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle31" />
+    <circle
+       cx="111"
+       cy="225"
+       r="18.4"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle32" />
+    <circle
+       cx="-49"
+       cy="20.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle33" />
+    <circle
+       cx="-49"
+       cy="20.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle34" />
+    <circle
+       cx="-49"
+       cy="20.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle35" />
+    <circle
+       cx="-63.75"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle36" />
+    <circle
+       cx="-63.75"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle37" />
+    <circle
+       cx="-63.75"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle38" />
+    <circle
+       cx="-34.25"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle39" />
+    <circle
+       cx="-34.25"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle40" />
+    <circle
+       cx="-34.25"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle41" />
+    <circle
+       cx="-49"
+       cy="49.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle42" />
+    <circle
+       cx="-49"
+       cy="49.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle43" />
+    <circle
+       cx="-49"
+       cy="49.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle44" />
+    <circle
+       cx="-49"
+       cy="58.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle45" />
+    <circle
+       cx="-49"
+       cy="58.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle46" />
+    <circle
+       cx="-49"
+       cy="58.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle47" />
+    <circle
+       cx="-63.75"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle48" />
+    <circle
+       cx="-63.75"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle49" />
+    <circle
+       cx="-63.75"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle50" />
+    <circle
+       cx="-34.25"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle51" />
+    <circle
+       cx="-34.25"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle52" />
+    <circle
+       cx="-34.25"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle53" />
+    <circle
+       cx="-49"
+       cy="87.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle54" />
+    <circle
+       cx="-49"
+       cy="87.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle55" />
+    <circle
+       cx="-49"
+       cy="87.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle56" />
+    <circle
+       cx="-23.75"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle57" />
+    <circle
+       cx="-23.75"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle58" />
+    <circle
+       cx="-23.75"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle59" />
+    <circle
+       cx="-9"
+       cy="20.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle60" />
+    <circle
+       cx="-9"
+       cy="20.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle61" />
+    <circle
+       cx="-9"
+       cy="20.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle62" />
+    <circle
+       cx="5.75"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle63" />
+    <circle
+       cx="5.75"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle64" />
+    <circle
+       cx="5.75"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle65" />
+    <circle
+       cx="-9"
+       cy="49.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle66" />
+    <circle
+       cx="-9"
+       cy="49.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle67" />
+    <circle
+       cx="-9"
+       cy="49.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle68" />
+    <circle
+       cx="31"
+       cy="20.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle69" />
+    <circle
+       cx="31"
+       cy="20.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle70" />
+    <circle
+       cx="31"
+       cy="20.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle71" />
+    <circle
+       cx="16.25"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle72" />
+    <circle
+       cx="16.25"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle73" />
+    <circle
+       cx="16.25"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle74" />
+    <circle
+       cx="31"
+       cy="49.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle75" />
+    <circle
+       cx="31"
+       cy="49.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle76" />
+    <circle
+       cx="31"
+       cy="49.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle77" />
+    <circle
+       cx="45.75"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle78" />
+    <circle
+       cx="45.75"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle79" />
+    <circle
+       cx="45.75"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle80" />
+    <circle
+       cx="-23.75"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle81" />
+    <circle
+       cx="-23.75"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle82" />
+    <circle
+       cx="-23.75"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle83" />
+    <circle
+       cx="-9"
+       cy="58.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle84" />
+    <circle
+       cx="-9"
+       cy="58.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle85" />
+    <circle
+       cx="-9"
+       cy="58.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle86" />
+    <circle
+       cx="5.75"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle87" />
+    <circle
+       cx="5.75"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle88" />
+    <circle
+       cx="5.75"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle89" />
+    <circle
+       cx="-9"
+       cy="87.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle90" />
+    <circle
+       cx="-9"
+       cy="87.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle91" />
+    <circle
+       cx="-9"
+       cy="87.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle92" />
+    <circle
+       cx="31"
+       cy="58.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle93" />
+    <circle
+       cx="31"
+       cy="58.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle94" />
+    <circle
+       cx="31"
+       cy="58.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle95" />
+    <circle
+       cx="16.25"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle96" />
+    <circle
+       cx="16.25"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle97" />
+    <circle
+       cx="16.25"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle98" />
+    <circle
+       cx="31"
+       cy="87.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle99" />
+    <circle
+       cx="31"
+       cy="87.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle100" />
+    <circle
+       cx="31"
+       cy="87.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle101" />
+    <circle
+       cx="45.75"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle102" />
+    <circle
+       cx="45.75"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle103" />
+    <circle
+       cx="45.75"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle104" />
+    <circle
+       cx="-49"
+       cy="96.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle105" />
+    <circle
+       cx="-49"
+       cy="96.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle106" />
+    <circle
+       cx="-49"
+       cy="96.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle107" />
+    <circle
+       cx="-63.75"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle108" />
+    <circle
+       cx="-63.75"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle109" />
+    <circle
+       cx="-63.75"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle110" />
+    <circle
+       cx="-49"
+       cy="125.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle111" />
+    <circle
+       cx="-49"
+       cy="125.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle112" />
+    <circle
+       cx="-49"
+       cy="125.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle113" />
+    <circle
+       cx="-34.25"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle114" />
+    <circle
+       cx="-34.25"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle115" />
+    <circle
+       cx="-34.25"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle116" />
+    <circle
+       cx="-23.75"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle117" />
+    <circle
+       cx="-23.75"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle118" />
+    <circle
+       cx="-23.75"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle119" />
+    <circle
+       cx="-9"
+       cy="96.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle120" />
+    <circle
+       cx="-9"
+       cy="96.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle121" />
+    <circle
+       cx="-9"
+       cy="96.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle122" />
+    <circle
+       cx="5.75"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle123" />
+    <circle
+       cx="5.75"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle124" />
+    <circle
+       cx="5.75"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle125" />
+    <circle
+       cx="-9"
+       cy="125.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle126" />
+    <circle
+       cx="-9"
+       cy="125.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle127" />
+    <circle
+       cx="-9"
+       cy="125.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle128" />
+    <circle
+       cx="31"
+       cy="96.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle129" />
+    <circle
+       cx="31"
+       cy="96.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle130" />
+    <circle
+       cx="31"
+       cy="96.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle131" />
+    <circle
+       cx="16.25"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle132" />
+    <circle
+       cx="16.25"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle133" />
+    <circle
+       cx="16.25"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle134" />
+    <circle
+       cx="31"
+       cy="125.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle135" />
+    <circle
+       cx="31"
+       cy="125.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle136" />
+    <circle
+       cx="31"
+       cy="125.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle137" />
+    <circle
+       cx="45.75"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle138" />
+    <circle
+       cx="45.75"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle139" />
+    <circle
+       cx="45.75"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle140" />
+    <circle
+       cx="71"
+       cy="20.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle141" />
+    <circle
+       cx="71"
+       cy="20.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle142" />
+    <circle
+       cx="71"
+       cy="20.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle143" />
+    <circle
+       cx="56.25"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle144" />
+    <circle
+       cx="56.25"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle145" />
+    <circle
+       cx="56.25"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle146" />
+    <circle
+       cx="71"
+       cy="49.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle147" />
+    <circle
+       cx="71"
+       cy="49.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle148" />
+    <circle
+       cx="71"
+       cy="49.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle149" />
+    <circle
+       cx="85.75"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle150" />
+    <circle
+       cx="85.75"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle151" />
+    <circle
+       cx="85.75"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle152" />
+    <circle
+       cx="71"
+       cy="58.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle153" />
+    <circle
+       cx="71"
+       cy="58.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle154" />
+    <circle
+       cx="71"
+       cy="58.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle155" />
+    <circle
+       cx="56.25"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle156" />
+    <circle
+       cx="56.25"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle157" />
+    <circle
+       cx="56.25"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle158" />
+    <circle
+       cx="85.75"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle159" />
+    <circle
+       cx="85.75"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle160" />
+    <circle
+       cx="85.75"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle161" />
+    <circle
+       cx="71"
+       cy="87.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle162" />
+    <circle
+       cx="71"
+       cy="87.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle163" />
+    <circle
+       cx="71"
+       cy="87.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle164" />
+    <circle
+       cx="96.25"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle165" />
+    <circle
+       cx="96.25"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle166" />
+    <circle
+       cx="96.25"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle167" />
+    <circle
+       cx="111"
+       cy="20.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle168" />
+    <circle
+       cx="111"
+       cy="20.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle169" />
+    <circle
+       cx="111"
+       cy="20.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle170" />
+    <circle
+       cx="125.75"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle171" />
+    <circle
+       cx="125.75"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle172" />
+    <circle
+       cx="125.75"
+       cy="35"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle173" />
+    <circle
+       cx="111"
+       cy="49.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle174" />
+    <circle
+       cx="111"
+       cy="49.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle175" />
+    <circle
+       cx="111"
+       cy="49.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle176" />
+    <circle
+       cx="96.25"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle177" />
+    <circle
+       cx="96.25"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle178" />
+    <circle
+       cx="96.25"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle179" />
+    <circle
+       cx="111"
+       cy="58.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle180" />
+    <circle
+       cx="111"
+       cy="58.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle181" />
+    <circle
+       cx="111"
+       cy="58.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle182" />
+    <circle
+       cx="125.75"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle183" />
+    <circle
+       cx="125.75"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle184" />
+    <circle
+       cx="125.75"
+       cy="73"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle185" />
+    <circle
+       cx="111"
+       cy="87.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle186" />
+    <circle
+       cx="111"
+       cy="87.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle187" />
+    <circle
+       cx="111"
+       cy="87.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle188" />
+    <circle
+       cx="71"
+       cy="96.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle189" />
+    <circle
+       cx="71"
+       cy="96.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle190" />
+    <circle
+       cx="71"
+       cy="96.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle191" />
+    <circle
+       cx="56.25"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle192" />
+    <circle
+       cx="56.25"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle193" />
+    <circle
+       cx="56.25"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle194" />
+    <circle
+       cx="71"
+       cy="125.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle195" />
+    <circle
+       cx="71"
+       cy="125.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle196" />
+    <circle
+       cx="71"
+       cy="125.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle197" />
+    <circle
+       cx="85.75"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle198" />
+    <circle
+       cx="85.75"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle199" />
+    <circle
+       cx="85.75"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle200" />
+    <circle
+       cx="111"
+       cy="96.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle201" />
+    <circle
+       cx="111"
+       cy="96.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle202" />
+    <circle
+       cx="111"
+       cy="96.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle203" />
+    <circle
+       cx="96.25"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle204" />
+    <circle
+       cx="96.25"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle205" />
+    <circle
+       cx="96.25"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle206" />
+    <circle
+       cx="125.75"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle207" />
+    <circle
+       cx="125.75"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle208" />
+    <circle
+       cx="125.75"
+       cy="111"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle209" />
+    <circle
+       cx="111"
+       cy="125.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle210" />
+    <circle
+       cx="111"
+       cy="125.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle211" />
+    <circle
+       cx="111"
+       cy="125.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle212" />
+    <circle
+       cx="-49"
+       cy="134.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle213" />
+    <circle
+       cx="-49"
+       cy="134.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle214" />
+    <circle
+       cx="-49"
+       cy="134.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle215" />
+    <circle
+       cx="-63.75"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle216" />
+    <circle
+       cx="-63.75"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle217" />
+    <circle
+       cx="-63.75"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle218" />
+    <circle
+       cx="-34.25"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle219" />
+    <circle
+       cx="-34.25"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle220" />
+    <circle
+       cx="-34.25"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle221" />
+    <circle
+       cx="-49"
+       cy="163.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle222" />
+    <circle
+       cx="-49"
+       cy="163.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle223" />
+    <circle
+       cx="-49"
+       cy="163.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle224" />
+    <circle
+       cx="-23.75"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle225" />
+    <circle
+       cx="-23.75"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle226" />
+    <circle
+       cx="-23.75"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle227" />
+    <circle
+       cx="-9"
+       cy="134.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle228" />
+    <circle
+       cx="-9"
+       cy="134.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle229" />
+    <circle
+       cx="-9"
+       cy="134.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle230" />
+    <circle
+       cx="5.75"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle231" />
+    <circle
+       cx="5.75"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle232" />
+    <circle
+       cx="5.75"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle233" />
+    <circle
+       cx="-9"
+       cy="163.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle234" />
+    <circle
+       cx="-9"
+       cy="163.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle235" />
+    <circle
+       cx="-9"
+       cy="163.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle236" />
+    <circle
+       cx="31"
+       cy="134.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle237" />
+    <circle
+       cx="31"
+       cy="134.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle238" />
+    <circle
+       cx="31"
+       cy="134.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle239" />
+    <circle
+       cx="16.25"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle240" />
+    <circle
+       cx="16.25"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle241" />
+    <circle
+       cx="16.25"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle242" />
+    <circle
+       cx="31"
+       cy="163.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle243" />
+    <circle
+       cx="31"
+       cy="163.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle244" />
+    <circle
+       cx="31"
+       cy="163.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle245" />
+    <circle
+       cx="45.75"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle246" />
+    <circle
+       cx="45.75"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle247" />
+    <circle
+       cx="45.75"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle248" />
+    <circle
+       cx="-49"
+       cy="172.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle249" />
+    <circle
+       cx="-49"
+       cy="172.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle250" />
+    <circle
+       cx="-49"
+       cy="172.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle251" />
+    <circle
+       cx="-63.75"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle252" />
+    <circle
+       cx="-63.75"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle253" />
+    <circle
+       cx="-63.75"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle254" />
+    <circle
+       cx="-49"
+       cy="201.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle255" />
+    <circle
+       cx="-49"
+       cy="201.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle256" />
+    <circle
+       cx="-49"
+       cy="201.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle257" />
+    <circle
+       cx="-34.25"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle258" />
+    <circle
+       cx="-34.25"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle259" />
+    <circle
+       cx="-34.25"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle260" />
+    <circle
+       cx="-49"
+       cy="210.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle261" />
+    <circle
+       cx="-49"
+       cy="210.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle262" />
+    <circle
+       cx="-49"
+       cy="210.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle263" />
+    <circle
+       cx="-63.75"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle264" />
+    <circle
+       cx="-63.75"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle265" />
+    <circle
+       cx="-63.75"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle266" />
+    <circle
+       cx="-49"
+       cy="239.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle267" />
+    <circle
+       cx="-49"
+       cy="239.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle268" />
+    <circle
+       cx="-49"
+       cy="239.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle269" />
+    <circle
+       cx="-34.25"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle270" />
+    <circle
+       cx="-34.25"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle271" />
+    <circle
+       cx="-34.25"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle272" />
+    <circle
+       cx="-9"
+       cy="172.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle273" />
+    <circle
+       cx="-9"
+       cy="172.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle274" />
+    <circle
+       cx="-9"
+       cy="172.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle275" />
+    <circle
+       cx="-23.75"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle276" />
+    <circle
+       cx="-23.75"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle277" />
+    <circle
+       cx="-23.75"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle278" />
+    <circle
+       cx="5.75"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle279" />
+    <circle
+       cx="5.75"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle280" />
+    <circle
+       cx="5.75"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle281" />
+    <circle
+       cx="-9"
+       cy="201.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle282" />
+    <circle
+       cx="-9"
+       cy="201.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle283" />
+    <circle
+       cx="-9"
+       cy="201.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle284" />
+    <circle
+       cx="31"
+       cy="172.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle285" />
+    <circle
+       cx="31"
+       cy="172.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle286" />
+    <circle
+       cx="31"
+       cy="172.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle287" />
+    <circle
+       cx="16.25"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle288" />
+    <circle
+       cx="16.25"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle289" />
+    <circle
+       cx="16.25"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle290" />
+    <circle
+       cx="31"
+       cy="201.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle291" />
+    <circle
+       cx="31"
+       cy="201.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle292" />
+    <circle
+       cx="31"
+       cy="201.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle293" />
+    <circle
+       cx="45.75"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle294" />
+    <circle
+       cx="45.75"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle295" />
+    <circle
+       cx="45.75"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle296" />
+    <circle
+       cx="-23.75"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle297" />
+    <circle
+       cx="-23.75"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle298" />
+    <circle
+       cx="-23.75"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle299" />
+    <circle
+       cx="-9"
+       cy="210.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle300" />
+    <circle
+       cx="-9"
+       cy="210.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle301" />
+    <circle
+       cx="-9"
+       cy="210.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle302" />
+    <circle
+       cx="5.75"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle303" />
+    <circle
+       cx="5.75"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle304" />
+    <circle
+       cx="5.75"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle305" />
+    <circle
+       cx="-9"
+       cy="239.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle306" />
+    <circle
+       cx="-9"
+       cy="239.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle307" />
+    <circle
+       cx="-9"
+       cy="239.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle308" />
+    <circle
+       cx="31"
+       cy="210.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle309" />
+    <circle
+       cx="31"
+       cy="210.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle310" />
+    <circle
+       cx="31"
+       cy="210.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle311" />
+    <circle
+       cx="16.25"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle312" />
+    <circle
+       cx="16.25"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle313" />
+    <circle
+       cx="16.25"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle314" />
+    <circle
+       cx="31"
+       cy="239.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle315" />
+    <circle
+       cx="31"
+       cy="239.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle316" />
+    <circle
+       cx="31"
+       cy="239.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle317" />
+    <circle
+       cx="45.75"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle318" />
+    <circle
+       cx="45.75"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle319" />
+    <circle
+       cx="45.75"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle320" />
+    <circle
+       cx="71"
+       cy="134.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle321" />
+    <circle
+       cx="71"
+       cy="134.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle322" />
+    <circle
+       cx="71"
+       cy="134.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle323" />
+    <circle
+       cx="56.25"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle324" />
+    <circle
+       cx="56.25"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle325" />
+    <circle
+       cx="56.25"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle326" />
+    <circle
+       cx="71"
+       cy="163.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle327" />
+    <circle
+       cx="71"
+       cy="163.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle328" />
+    <circle
+       cx="71"
+       cy="163.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle329" />
+    <circle
+       cx="85.75"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle330" />
+    <circle
+       cx="85.75"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle331" />
+    <circle
+       cx="85.75"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle332" />
+    <circle
+       cx="96.25"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle333" />
+    <circle
+       cx="96.25"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle334" />
+    <circle
+       cx="96.25"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle335" />
+    <circle
+       cx="111"
+       cy="134.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle336" />
+    <circle
+       cx="111"
+       cy="134.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle337" />
+    <circle
+       cx="111"
+       cy="134.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle338" />
+    <circle
+       cx="125.75"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle339" />
+    <circle
+       cx="125.75"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle340" />
+    <circle
+       cx="125.75"
+       cy="149"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle341" />
+    <circle
+       cx="111"
+       cy="163.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle342" />
+    <circle
+       cx="111"
+       cy="163.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle343" />
+    <circle
+       cx="111"
+       cy="163.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle344" />
+    <circle
+       cx="71"
+       cy="172.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle345" />
+    <circle
+       cx="71"
+       cy="172.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle346" />
+    <circle
+       cx="71"
+       cy="172.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle347" />
+    <circle
+       cx="56.25"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle348" />
+    <circle
+       cx="56.25"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle349" />
+    <circle
+       cx="56.25"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle350" />
+    <circle
+       cx="71"
+       cy="201.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle351" />
+    <circle
+       cx="71"
+       cy="201.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle352" />
+    <circle
+       cx="71"
+       cy="201.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle353" />
+    <circle
+       cx="85.75"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle354" />
+    <circle
+       cx="85.75"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle355" />
+    <circle
+       cx="85.75"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle356" />
+    <circle
+       cx="71"
+       cy="210.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle357" />
+    <circle
+       cx="71"
+       cy="210.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle358" />
+    <circle
+       cx="71"
+       cy="210.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle359" />
+    <circle
+       cx="56.25"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle360" />
+    <circle
+       cx="56.25"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle361" />
+    <circle
+       cx="56.25"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle362" />
+    <circle
+       cx="71"
+       cy="239.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle363" />
+    <circle
+       cx="71"
+       cy="239.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle364" />
+    <circle
+       cx="71"
+       cy="239.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle365" />
+    <circle
+       cx="85.75"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle366" />
+    <circle
+       cx="85.75"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle367" />
+    <circle
+       cx="85.75"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle368" />
+    <circle
+       cx="111"
+       cy="172.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle369" />
+    <circle
+       cx="111"
+       cy="172.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle370" />
+    <circle
+       cx="111"
+       cy="172.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle371" />
+    <circle
+       cx="96.25"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle372" />
+    <circle
+       cx="96.25"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle373" />
+    <circle
+       cx="96.25"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle374" />
+    <circle
+       cx="125.75"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle375" />
+    <circle
+       cx="125.75"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle376" />
+    <circle
+       cx="125.75"
+       cy="187"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle377" />
+    <circle
+       cx="111"
+       cy="201.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle378" />
+    <circle
+       cx="111"
+       cy="201.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle379" />
+    <circle
+       cx="111"
+       cy="201.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle380" />
+    <circle
+       cx="111"
+       cy="210.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle381" />
+    <circle
+       cx="111"
+       cy="210.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle382" />
+    <circle
+       cx="111"
+       cy="210.25"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle383" />
+    <circle
+       cx="96.25"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle384" />
+    <circle
+       cx="96.25"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle385" />
+    <circle
+       cx="96.25"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle386" />
+    <circle
+       cx="125.75"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle387" />
+    <circle
+       cx="125.75"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle388" />
+    <circle
+       cx="125.75"
+       cy="225"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle389" />
+    <circle
+       cx="111"
+       cy="239.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle390" />
+    <circle
+       cx="111"
+       cy="239.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle391" />
+    <circle
+       cx="111"
+       cy="239.75"
+       r="0.25"
+       stroke="#191919"
+       stroke-width="0.7 px"
+       style="fill:#adb5bd;stroke-width:0.7;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle392" />
+    <title
+       id="title392">b'plate_to_cut_circular_lids'</title>
+  </g>
+</svg>
